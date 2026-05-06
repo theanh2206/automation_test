@@ -1,0 +1,135 @@
+import pytest
+from selenium.webdriver.support import expected_conditions as EC
+from pages.DealsPage_page import DealsPage
+
+#TC145. Tìm kiếm gói cước có trong DB
+@pytest.mark.tc145
+def test_click_button_login_tc145(driver):
+    dealspage = DealsPage(driver)
+    dealspage.click_icon_deals(3)
+    dealspage.click_button_login()
+    dealspage.wait_for_result("Đăng nhập")
+    assert dealspage.is_result_displayed("Đăng nhập")  
+#TC146. Click menu
+@pytest.mark.tc146
+def test_click_button_login_tc146(driver):
+    dealspage = DealsPage(driver)
+    dealspage.click_icon_deals(3)
+    dealspage.click_menu()
+    dealspage.wait_for_result("Đăng nhập")
+    assert dealspage.is_result_displayed("Đăng nhập")  
+#TC147. Liên kết mypoint
+@pytest.mark.tc147
+def test_click_link_mypoint_tc147(driver):
+    dealspage = DealsPage(driver)
+    dealspage.click_icon_deals(3)
+    dealspage.click_textview_by_resource_id("vms.com.vn.mymobifone:id/tvLinkingNow")
+    dealspage.wait_for_result("Đăng nhập")
+    assert dealspage.is_result_displayed("Đăng nhập")  
+
+#TC148. Kiểm tra click ưu đãi tích điểm ở màn hình ngoài
+@pytest.mark.tc148
+def test_click_deals_point_out_tc148(driver):
+    dealspage = DealsPage(driver)
+    dealspage.click_icon_deals(3)
+    dealspage.scroll_to_element("Ưu đãi tích điểm")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Thương mại điện tử")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Giáo dục")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Làm đẹp")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Mẹ và bé")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.wait_for_result("Ưu đãi tích điểm")
+    assert dealspage.is_result_displayed("Ưu đãi tích điểm")
+#TC81. Kiểm tra click ưu đãi tích điểm ở màn hình tất cả ưu đãi 
+@pytest.mark.tc149
+def test_click_deals_point_in_tc149(driver):
+    dealspage = DealsPage(driver)
+    dealspage.click_icon_deals(3)
+    dealspage.scroll_to_element("Ưu đãi tích điểm")
+    dealspage.click_deals_list_all()
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Thương mại điện tử")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Giáo dục")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Làm đẹp")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Mẹ và bé")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.wait_for_result("Ưu đãi tích điểm")
+    assert dealspage.is_result_displayed("Ưu đãi tích điểm")
+#TC150. Kiểm tra click ưu đãi khác ở màn hình ngoài
+@pytest.mark.tc150
+def test_click_deals_point_other_out_tc150(driver):
+    dealspage = DealsPage(driver)
+    dealspage.click_icon_deals(3)
+    dealspage.scroll_to_element("Ưu đãi khác")
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(3)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Giáo dục")
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Mua sắm - Giải trí")
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(3)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(4)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(5)
+    dealspage.click_button_close()
+    dealspage.wait_for_result("Ưu đãi khác")
+    assert dealspage.is_result_displayed("Ưu đãi khác")
+#TC151. Kiểm tra click ưu đãi khác ở màn hình tất cả ưu đãi khác
+@pytest.mark.tc151
+def test_click_deals_point_other_in_tc151(driver):
+    dealspage = DealsPage(driver)
+    dealspage.click_icon_deals(3)
+    dealspage.scroll_to_element("Ưu đãi khác")
+    dealspage.click_deals_list_all_other()
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Giáo dục")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_by_text("Mua sắm - Giải trí")
+    dealspage.click_reward_point(1)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(2)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(3)
+    dealspage.click_button_close()
+    dealspage.click_reward_point(4)
+    dealspage.click_button_close()
+    dealspage.wait_for_result("Ưu đãi khác")
+    assert dealspage.is_result_displayed("Ưu đãi khác")
