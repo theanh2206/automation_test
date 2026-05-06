@@ -1,9 +1,7 @@
-2026-04-28 16:49:09,696 | INFO | [test_click_button_login_tc130] ✅ PASSED (2.94s)
-2026-04-28 16:49:16,225 | INFO | [test_click_sidebar_tc131] ✅ PASSED (2.72s)
-2026-04-28 16:49:41,011 | ERROR | [test_click_swipe_language_tc132] ❌ FAILED (21.74s)
-2026-04-28 16:49:41,012 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:49:41,012 | ERROR | 📍 Line: 138
-2026-04-28 16:49:41,012 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:19:57,740 | ERROR | [test_search_package_tc01] ❌ FAILED (23.5s)
+2026-05-06 19:19:57,741 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:19:57,741 | ERROR | 📍 Line: 138
+2026-05-06 19:19:57,741 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -12,10 +10,21 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:49:45,484 | ERROR | [test_click_icon_utilities_tc133] ❌ FAILED (0.35s)
-2026-04-28 16:49:45,484 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-04-28 16:49:45,484 | ERROR | 📍 Line: 125
-2026-04-28 16:49:45,484 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+2026-05-06 19:20:06,075 | INFO | [test_search_package_tc02] ✅ PASSED (5.14s)
+2026-05-06 19:20:16,212 | INFO | [test_search_package_tc03] ✅ PASSED (7.24s)
+2026-05-06 19:20:21,757 | INFO | [test_click_avata_tc04] ✅ PASSED (2.61s)
+2026-05-06 19:20:27,446 | INFO | [test_click_notification_tc05] ✅ PASSED (2.75s)
+2026-05-06 19:20:33,158 | INFO | [test_click_menu] ✅ PASSED (2.79s)
+2026-05-06 19:20:38,542 | INFO | [test_click_information_tc07] ✅ PASSED (2.47s)
+2026-05-06 19:20:44,782 | INFO | [test_click_infor_subcriber_tc08] ✅ PASSED (3.38s)
+2026-05-06 19:20:51,378 | INFO | [test_click_infor_lookup_tc09] ✅ PASSED (3.66s)
+2026-05-06 19:20:57,840 | INFO | [test_click_deposite_history_tc10] ✅ PASSED (3.54s)
+2026-05-06 19:21:04,660 | INFO | [test_click_subcriber_history_tc11] ✅ PASSED (3.93s)
+2026-05-06 19:21:16,274 | INFO | [test_click_buy_pakage_tc12] ✅ PASSED (8.68s)
+2026-05-06 19:21:46,869 | ERROR | [test_click_card_kndl_tc13_1] ❌ FAILED (27.39s)
+2026-05-06 19:21:46,870 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:21:46,870 | ERROR | 📍 Line: 138
+2026-05-06 19:21:46,870 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -24,16 +33,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:50:09,124 | INFO | [test_click_icon_utilities_tc134] ✅ PASSED (19.94s)
-2026-04-28 16:50:28,908 | ERROR | [test_click_avata_contact_tc135] ❌ FAILED (15.66s)
-2026-04-28 16:50:28,910 | ERROR | 📍 File: /Users/user/Documents/mobile-automation-ios/pages/HomePage_page.py
-2026-04-28 16:50:28,910 | ERROR | 📍 Line: 90
-2026-04-28 16:50:28,910 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: ON2
-2026-04-28 16:50:39,416 | INFO | [test_click_avata_contact_tc136] ✅ PASSED (6.53s)
-2026-04-28 16:50:46,319 | ERROR | [test_click_customer_support_tc137] ❌ FAILED (3.51s)
-2026-04-28 16:50:46,319 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-04-28 16:50:46,319 | ERROR | 📍 Line: 125
-2026-04-28 16:50:46,320 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+2026-05-06 19:22:19,977 | ERROR | [test_click_utilities_tc13_2] ❌ FAILED (30.2s)
+2026-05-06 19:22:19,978 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:22:19,978 | ERROR | 📍 Line: 138
+2026-05-06 19:22:19,978 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -42,12 +45,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:50:53,363 | INFO | [test_click_button_login_tc138] ✅ PASSED (3.94s)
-2026-04-28 16:51:01,136 | INFO | [test_click_button_login_tc139] ✅ PASSED (4.09s)
-2026-04-28 16:51:26,484 | ERROR | [test_click_categories_tc140] ❌ FAILED (21.41s)
-2026-04-28 16:51:26,485 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:51:26,485 | ERROR | 📍 Line: 138
-2026-04-28 16:51:26,485 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:22:30,604 | ERROR | [test_register_D5_tc14] ❌ FAILED (7.37s)
+2026-05-06 19:22:30,604 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:22:30,604 | ERROR | 📍 Line: 125
+2026-05-06 19:22:30,604 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -56,10 +57,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:51:51,594 | ERROR | [test_click_cycle_tc141] ❌ FAILED (21.93s)
-2026-04-28 16:51:51,595 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:51:51,595 | ERROR | 📍 Line: 138
-2026-04-28 16:51:51,596 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:22:40,742 | ERROR | [test_unregister_tc15] ❌ FAILED (7.21s)
+2026-05-06 19:22:40,743 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:22:40,743 | ERROR | 📍 Line: 125
+2026-05-06 19:22:40,743 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -68,10 +69,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:52:17,625 | ERROR | [test_click_sort_price_tc142] ❌ FAILED (23.05s)
-2026-04-28 16:52:17,627 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:52:17,627 | ERROR | 📍 Line: 138
-2026-04-28 16:52:17,627 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:22:51,111 | ERROR | [test_mobigames_register_tc16] ❌ FAILED (7.45s)
+2026-05-06 19:22:51,112 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:22:51,112 | ERROR | 📍 Line: 125
+2026-05-06 19:22:51,112 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -80,10 +81,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:52:43,231 | ERROR | [test_click_sort_data_tc143] ❌ FAILED (22.65s)
-2026-04-28 16:52:43,233 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:52:43,233 | ERROR | 📍 Line: 138
-2026-04-28 16:52:43,233 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:23:01,462 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (7.43s)
+2026-05-06 19:23:01,464 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:23:01,464 | ERROR | 📍 Line: 125
+2026-05-06 19:23:01,464 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -92,10 +93,34 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:53:12,849 | ERROR | [test_check_view_all_pakage_tc144] ❌ FAILED (26.32s)
-2026-04-28 16:53:12,850 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:53:12,850 | ERROR | 📍 Line: 138
-2026-04-28 16:53:12,850 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:23:21,401 | ERROR | [test_unregister_my_pakage_tc18] ❌ FAILED (17.04s)
+2026-05-06 19:23:21,402 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 19:23:21,402 | ERROR | 📍 Line: 90
+2026-05-06 19:23:21,402 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Gia hạn gói cước
+2026-05-06 19:23:41,114 | ERROR | [test_extend_pakage_tc19] ❌ FAILED (16.77s)
+2026-05-06 19:23:41,115 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 19:23:41,116 | ERROR | 📍 Line: 90
+2026-05-06 19:23:41,116 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Gia hạn gói cước
+2026-05-06 19:24:00,887 | ERROR | [test_unextend_pakage_tc20] ❌ FAILED (16.84s)
+2026-05-06 19:24:00,888 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 19:24:00,888 | ERROR | 📍 Line: 90
+2026-05-06 19:24:00,888 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Gia hạn gói cước
+2026-05-06 19:24:20,626 | ERROR | [test_reschedule] ❌ FAILED (16.84s)
+2026-05-06 19:24:20,626 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 19:24:20,626 | ERROR | 📍 Line: 90
+2026-05-06 19:24:20,626 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Đổi lịch hẹn
+2026-05-06 19:24:40,446 | ERROR | [test_cancel_shedule] ❌ FAILED (16.92s)
+2026-05-06 19:24:40,446 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 19:24:40,446 | ERROR | 📍 Line: 90
+2026-05-06 19:24:40,446 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Đổi lịch hẹn
+2026-05-06 19:24:45,544 | INFO | [test_buy_pakage_tc23] ✅ PASSED (2.09s)
+2026-05-06 19:24:50,847 | INFO | [test_recharge_tc24] ✅ PASSED (2.38s)
+2026-05-06 19:25:10,877 | INFO | [test_change_number_tc25] ✅ PASSED (17.13s)
+2026-05-06 19:25:27,254 | INFO | [test_click_utilities_tc26] ✅ PASSED (13.15s)
+2026-05-06 19:25:39,521 | ERROR | [test_click_utilities_tc27] ❌ FAILED (8.96s)
+2026-05-06 19:25:39,521 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:25:39,521 | ERROR | 📍 Line: 125
+2026-05-06 19:25:39,521 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -104,13 +129,16 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:53:20,306 | INFO | [test_click_button_login_tc145] ✅ PASSED (4.17s)
-2026-04-28 16:53:27,519 | INFO | [test_click_button_login_tc146] ✅ PASSED (4.26s)
-2026-04-28 16:53:34,626 | INFO | [test_click_link_mypoint_tc147] ✅ PASSED (4.14s)
-2026-04-28 16:53:50,612 | ERROR | [test_click_deals_point_out_tc148] ❌ FAILED (12.88s)
-2026-04-28 16:53:50,612 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:53:50,612 | ERROR | 📍 Line: 138
-2026-04-28 16:53:50,612 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:26:02,807 | INFO | [test_click_utilities_tc28] ✅ PASSED (20.11s)
+2026-05-06 19:26:19,393 | INFO | [test_click_card_kndl_tc29] ✅ PASSED (13.38s)
+2026-05-06 19:26:51,597 | INFO | [test_click_services_tc30] ✅ PASSED (29.29s)
+2026-05-06 19:27:05,493 | INFO | [test_click_customer_support_tc31] ✅ PASSED (10.62s)
+2026-05-06 19:27:23,767 | INFO | [test_click_banner_tc32] ✅ PASSED (14.99s)
+2026-05-06 19:27:42,581 | INFO | [test_click_banner_tc32_1] ✅ PASSED (15.56s)
+2026-05-06 19:36:26,263 | ERROR | [test_click_card_kndl_tc13_1] ❌ FAILED (26.93s)
+2026-05-06 19:36:26,263 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:36:26,263 | ERROR | 📍 Line: 138
+2026-05-06 19:36:26,263 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -119,10 +147,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:54:07,448 | ERROR | [test_click_deals_point_in_tc149] ❌ FAILED (13.82s)
-2026-04-28 16:54:07,449 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:54:07,449 | ERROR | 📍 Line: 138
-2026-04-28 16:54:07,449 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:38:27,519 | ERROR | [test_click_card_kndl_tc13_1] ❌ FAILED (27.31s)
+2026-05-06 19:38:27,519 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:38:27,519 | ERROR | 📍 Line: 138
+2026-05-06 19:38:27,519 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -131,10 +159,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:54:37,280 | ERROR | [test_click_deals_point_other_out_tc150] ❌ FAILED (26.86s)
-2026-04-28 16:54:37,281 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:54:37,281 | ERROR | 📍 Line: 138
-2026-04-28 16:54:37,282 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:41:41,276 | ERROR | [test_click_card_kndl_tc13_1] ❌ FAILED (27.15s)
+2026-05-06 19:41:41,276 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:41:41,276 | ERROR | 📍 Line: 138
+2026-05-06 19:41:41,276 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -143,10 +171,11 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:55:02,274 | ERROR | [test_click_deals_point_other_in_tc151] ❌ FAILED (21.68s)
-2026-04-28 16:55:02,275 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:55:02,275 | ERROR | 📍 Line: 138
-2026-04-28 16:55:02,275 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:45:53,967 | INFO | [test_click_card_kndl_tc13_1] ✅ PASSED (8.63s)
+2026-05-06 19:46:48,517 | ERROR | [test_click_utilities_tc13_2] ❌ FAILED (31.28s)
+2026-05-06 19:46:48,518 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:46:48,518 | ERROR | 📍 Line: 138
+2026-05-06 19:46:48,518 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -155,13 +184,11 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:55:13,346 | INFO | [test_click_button_login_tc152] ✅ PASSED (7.73s)
-2026-04-28 16:55:24,912 | INFO | [test_click_button_login_tc153] ✅ PASSED (7.61s)
-2026-04-28 16:55:46,341 | INFO | [test_click_banner_tc154] ✅ PASSED (18.51s)
-2026-04-28 16:56:05,131 | ERROR | [test_click_services_tc155] ❌ FAILED (15.56s)
-2026-04-28 16:56:05,131 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-04-28 16:56:05,131 | ERROR | 📍 Line: 138
-2026-04-28 16:56:05,131 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:53:28,827 | INFO | [test_click_utilities_tc13_2] ✅ PASSED (27.2s)
+2026-05-06 19:54:25,205 | ERROR | [test_register_D5_tc14] ❌ FAILED (23.4s)
+2026-05-06 19:54:25,205 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 19:54:25,206 | ERROR | 📍 Line: 138
+2026-05-06 19:54:25,206 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -170,15 +197,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:56:27,530 | ERROR | [test_click_services_tc156] ❌ FAILED (19.09s)
-2026-04-28 16:56:27,531 | ERROR | 📍 File: /Users/user/Documents/mobile-automation-ios/pages/ServicesPage_page.py
-2026-04-28 16:56:27,531 | ERROR | 📍 Line: 94
-2026-04-28 16:56:27,531 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Buzz me
-2026-04-28 16:56:34,890 | INFO | [test_click_button_login_tc157] ✅ PASSED (3.49s)
-2026-04-28 16:56:43,982 | ERROR | [test_check_tab_introduce_tc158] ❌ FAILED (6.11s)
-2026-04-28 16:56:43,982 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-04-28 16:56:43,982 | ERROR | 📍 Line: 125
-2026-04-28 16:56:43,982 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+2026-05-06 19:54:52,240 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (7.56s)
+2026-05-06 19:54:52,240 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:54:52,240 | ERROR | 📍 Line: 125
+2026-05-06 19:54:52,240 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -187,13 +209,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-28 16:56:50,125 | INFO | [test_click_button_exchange_tc159] ✅ PASSED (2.83s)
-2026-04-28 16:56:55,845 | INFO | [test_click_button_detail_tc160] ✅ PASSED (2.84s)
-2026-04-28 16:57:05,046 | INFO | [test_check_tab_introduce_tc161] ✅ PASSED (6.36s)
-2026-04-28 16:57:09,824 | ERROR | [test_list_deal_kndl_tc162] ❌ FAILED (1.49s)
-2026-04-28 16:57:09,825 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-04-28 16:57:09,825 | ERROR | 📍 Line: 125
-2026-04-28 16:57:09,825 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+2026-05-06 19:57:07,124 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (7.26s)
+2026-05-06 19:57:07,125 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:57:07,125 | ERROR | 📍 Line: 125
+2026-05-06 19:57:07,126 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -202,21 +221,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-04-29 11:08:34,653 | INFO | [test_click_button_login_tc130] ✅ PASSED (3.06s)
-2026-05-05 16:52:47,250 | INFO | [test_click_button_login_tc130] ✅ PASSED (2.91s)
-2026-05-05 16:52:53,203 | INFO | [test_click_sidebar_tc131] ✅ PASSED (2.86s)
-2026-05-05 16:53:20,684 | INFO | [test_click_swipe_language_tc132] ✅ PASSED (24.49s)
-2026-05-05 16:53:36,219 | INFO | [test_click_icon_utilities_tc133] ✅ PASSED (12.47s)
-2026-05-05 16:53:59,535 | INFO | [test_click_icon_utilities_tc134] ✅ PASSED (20.24s)
-2026-05-05 16:54:18,887 | INFO | [test_click_avata_contact_tc135] ✅ PASSED (16.25s)
-2026-05-05 16:54:28,863 | INFO | [test_click_avata_contact_tc136] ✅ PASSED (6.92s)
-2026-05-05 16:54:48,576 | INFO | [test_click_customer_support_tc137] ✅ PASSED (16.69s)
-2026-05-05 16:54:55,569 | INFO | [test_click_button_login_tc138] ✅ PASSED (3.93s)
-2026-05-05 16:55:02,659 | INFO | [test_click_button_login_tc139] ✅ PASSED (4.05s)
-2026-05-05 16:55:36,605 | ERROR | [test_click_categories_tc140] ❌ FAILED (30.84s)
-2026-05-05 16:55:36,605 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-05-05 16:55:36,605 | ERROR | 📍 Line: 138
-2026-05-05 16:55:36,605 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 19:58:52,051 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (7.43s)
+2026-05-06 19:58:52,051 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 19:58:52,051 | ERROR | 📍 Line: 125
+2026-05-06 19:58:52,051 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -225,79 +233,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-05-05 16:55:46,547 | INFO | [test_click_cycle_tc141] ✅ PASSED (6.85s)
-2026-05-05 16:55:54,585 | INFO | [test_click_sort_price_tc142] ✅ PASSED (4.96s)
-2026-05-05 16:56:02,844 | INFO | [test_click_sort_data_tc143] ✅ PASSED (5.15s)
-2026-05-05 16:56:16,929 | INFO | [test_check_view_all_pakage_tc144] ✅ PASSED (11.02s)
-2026-05-05 16:56:24,320 | INFO | [test_click_button_login_tc145] ✅ PASSED (4.36s)
-2026-05-05 16:56:31,789 | INFO | [test_click_button_login_tc146] ✅ PASSED (4.42s)
-2026-05-05 16:56:39,103 | INFO | [test_click_link_mypoint_tc147] ✅ PASSED (4.31s)
-2026-05-05 16:57:16,632 | INFO | [test_click_deals_point_out_tc148] ✅ PASSED (34.55s)
-2026-05-05 16:57:47,383 | INFO | [test_click_deals_point_in_tc149] ✅ PASSED (27.66s)
-2026-05-05 16:58:21,265 | INFO | [test_click_deals_point_other_out_tc150] ✅ PASSED (30.83s)
-2026-05-05 16:58:51,403 | INFO | [test_click_deals_point_other_in_tc151] ✅ PASSED (27.03s)
-2026-05-05 16:59:02,242 | INFO | [test_click_button_login_tc152] ✅ PASSED (7.88s)
-2026-05-05 16:59:13,067 | INFO | [test_click_button_login_tc153] ✅ PASSED (7.78s)
-2026-05-05 16:59:45,029 | ERROR | [test_click_banner_tc154] ❌ FAILED (28.87s)
-2026-05-05 16:59:45,029 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-05-05 16:59:45,029 | ERROR | 📍 Line: 125
-2026-05-05 16:59:45,029 | ERROR | 📍 Error: selenium.common.exceptions.WebDriverException: Message: Invalid parameter not satisfying: point.x != INFINITY && point.y != INFINITY
-Stacktrace:
-ProxyRequestError: Request failed with status code 500
-    at JWProxy.proxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:297:13)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at JWProxy.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:331:14)
-    at JWProxy.command (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:349:32)
-    at XCUITestDriver.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/proxy-helper.ts:95:13)
-    at XCUITestDriver.mobileDragFromToForDuration (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/gesture.ts:405:7)
-    at XCUITestDriver.executeMethod (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/execute.ts:62:12)
-    at XCUITestDriver.execute (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/execute.ts:24:12)
-2026-05-05 17:00:14,496 | INFO | [test_click_services_tc155] ✅ PASSED (27.28s)
-2026-05-05 17:00:35,893 | ERROR | [test_click_services_tc156] ❌ FAILED (18.3s)
-2026-05-05 17:00:35,893 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-05-05 17:00:35,893 | ERROR | 📍 Line: 125
-2026-05-05 17:00:35,893 | ERROR | 📍 Error: selenium.common.exceptions.StaleElementReferenceException: Message: The previously found element ""iflix" StaticText" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Error getting main window kAXErrorInvalidUIElement; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-ProxyRequestError: Request failed with status code 404
-    at JWProxy.proxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:297:13)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at ProtocolConverter.convertAndProxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/protocol-converter.ts:132:12)
-    at JWProxy.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:335:12)
-    at JWProxy.proxyReqRes (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:413:32)
-2026-05-05 17:00:42,647 | INFO | [test_click_button_login_tc157] ✅ PASSED (3.67s)
-2026-05-05 17:00:52,905 | INFO | [test_check_tab_introduce_tc158] ✅ PASSED (7.26s)
-2026-05-05 17:00:59,003 | INFO | [test_click_button_exchange_tc159] ✅ PASSED (3.13s)
-2026-05-05 17:01:05,220 | INFO | [test_click_button_detail_tc160] ✅ PASSED (3.18s)
-2026-05-05 17:01:14,598 | INFO | [test_check_tab_introduce_tc161] ✅ PASSED (6.41s)
-2026-05-05 17:01:28,989 | INFO | [test_list_deal_kndl_tc162] ✅ PASSED (11.42s)
-2026-05-05 17:02:21,232 | INFO | [test_click_categories_tc140] ✅ PASSED (12.94s)
-2026-05-05 17:04:14,725 | INFO | [test_click_banner_tc154] ✅ PASSED (19.63s)
-2026-05-05 17:04:42,041 | ERROR | [test_click_services_tc156] ❌ FAILED (12.29s)
-2026-05-05 17:04:42,041 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-05-05 17:04:42,041 | ERROR | 📍 Line: 125
-2026-05-05 17:04:42,041 | ERROR | 📍 Error: selenium.common.exceptions.StaleElementReferenceException: Message: The previously found element ""K+ data" StaticText" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Error getting main window kAXErrorInvalidUIElement; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-ProxyRequestError: Request failed with status code 404
-    at JWProxy.proxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:297:13)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at ProtocolConverter.convertAndProxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/protocol-converter.ts:132:12)
-    at JWProxy.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:335:12)
-    at JWProxy.proxyReqRes (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:413:32)
-2026-05-05 17:05:50,624 | ERROR | [test_click_services_tc156] ❌ FAILED (12.07s)
-2026-05-05 17:05:50,624 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-05-05 17:05:50,624 | ERROR | 📍 Line: 125
-2026-05-05 17:05:50,624 | ERROR | 📍 Error: selenium.common.exceptions.StaleElementReferenceException: Message: The previously found element ""K+ data" StaticText" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Error getting main window kAXErrorInvalidUIElement; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-ProxyRequestError: Request failed with status code 404
-    at JWProxy.proxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:297:13)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at ProtocolConverter.convertAndProxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/protocol-converter.ts:132:12)
-    at JWProxy.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:335:12)
-    at JWProxy.proxyReqRes (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:413:32)
-2026-05-05 17:08:03,088 | ERROR | [test_click_services_tc156] ❌ FAILED (55.72s)
-2026-05-05 17:08:03,089 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-05-05 17:08:03,089 | ERROR | 📍 Line: 138
-2026-05-05 17:08:03,089 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 20:00:10,083 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (27.74s)
+2026-05-06 20:00:10,083 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:00:10,084 | ERROR | 📍 Line: 138
+2026-05-06 20:00:10,084 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -306,21 +245,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-05-05 17:09:52,691 | ERROR | [test_click_services_tc156] ❌ FAILED (18.52s)
-2026-05-05 17:09:52,691 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
-2026-05-05 17:09:52,691 | ERROR | 📍 Line: 125
-2026-05-05 17:09:52,691 | ERROR | 📍 Error: selenium.common.exceptions.StaleElementReferenceException: Message: The previously found element ""iflix" StaticText" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Error getting main window kAXErrorInvalidUIElement; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Stacktrace:
-ProxyRequestError: Request failed with status code 404
-    at JWProxy.proxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:297:13)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at ProtocolConverter.convertAndProxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/protocol-converter.ts:132:12)
-    at JWProxy.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:335:12)
-    at JWProxy.proxyReqRes (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:413:32)
-2026-05-05 17:12:06,040 | ERROR | [test_click_services_tc156] ❌ FAILED (37.74s)
-2026-05-05 17:12:06,041 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-05-05 17:12:06,041 | ERROR | 📍 Line: 138
-2026-05-05 17:12:06,041 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 20:00:25,551 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (8.54s)
+2026-05-06 20:00:25,551 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:00:25,551 | ERROR | 📍 Line: 125
+2026-05-06 20:00:25,551 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -329,22 +257,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-05-05 17:22:57,023 | INFO | [test_click_services_tc156] ✅ PASSED (55.96s)
-2026-05-06 18:18:16,486 | INFO | [test_click_button_login_tc130] ✅ PASSED (2.71s)
-2026-05-06 18:18:22,220 | INFO | [test_click_sidebar_tc131] ✅ PASSED (2.75s)
-2026-05-06 18:18:48,796 | INFO | [test_click_swipe_language_tc132] ✅ PASSED (23.59s)
-2026-05-06 18:19:04,792 | INFO | [test_click_icon_utilities_tc133] ✅ PASSED (12.6s)
-2026-05-06 18:19:27,510 | INFO | [test_click_icon_utilities_tc134] ✅ PASSED (19.36s)
-2026-05-06 18:19:47,411 | INFO | [test_click_avata_contact_tc135] ✅ PASSED (16.42s)
-2026-05-06 18:19:56,952 | INFO | [test_click_avata_contact_tc136] ✅ PASSED (6.2s)
-2026-05-06 18:20:16,370 | INFO | [test_click_customer_support_tc137] ✅ PASSED (15.91s)
-2026-05-06 18:20:23,451 | INFO | [test_click_button_login_tc138] ✅ PASSED (3.66s)
-2026-05-06 18:20:30,315 | INFO | [test_click_button_login_tc139] ✅ PASSED (3.62s)
-2026-05-06 18:20:45,087 | INFO | [test_click_categories_tc140] ✅ PASSED (11.58s)
-2026-05-06 18:21:14,274 | ERROR | [test_click_cycle_tc141] ❌ FAILED (25.82s)
-2026-05-06 18:21:14,274 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-05-06 18:21:14,274 | ERROR | 📍 Line: 138
-2026-05-06 18:21:14,274 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 20:01:05,814 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (8.72s)
+2026-05-06 20:01:05,814 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:01:05,814 | ERROR | 📍 Line: 125
+2026-05-06 20:01:05,815 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -353,10 +269,10 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-05-06 18:21:41,586 | ERROR | [test_click_sort_price_tc142] ❌ FAILED (24.14s)
-2026-05-06 18:21:41,587 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-05-06 18:21:41,587 | ERROR | 📍 Line: 138
-2026-05-06 18:21:41,587 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 20:04:01,317 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (30.06s)
+2026-05-06 20:04:01,318 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:04:01,318 | ERROR | 📍 Line: 138
+2026-05-06 20:04:01,318 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -365,10 +281,28 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-05-06 18:22:09,055 | ERROR | [test_click_sort_data_tc143] ❌ FAILED (24.15s)
-2026-05-06 18:22:09,057 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
-2026-05-06 18:22:09,057 | ERROR | 📍 Line: 138
-2026-05-06 18:22:09,057 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+2026-05-06 20:06:21,060 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (9.02s)
+2026-05-06 20:06:21,060 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 20:06:21,060 | ERROR | 📍 Line: 28
+2026-05-06 20:06:21,060 | ERROR | 📍 Error: TypeError: 'WebElement' object is not subscriptable
+2026-05-06 20:08:58,610 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (8.57s)
+2026-05-06 20:08:58,610 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 20:08:58,610 | ERROR | 📍 Line: 30
+2026-05-06 20:08:58,610 | ERROR | 📍 Error: IndexError: list index out of range
+2026-05-06 20:10:35,794 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (9.83s)
+2026-05-06 20:10:35,794 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/HomePage_page.py
+2026-05-06 20:10:35,794 | ERROR | 📍 Line: 34
+2026-05-06 20:10:35,794 | ERROR | 📍 Error: Exception: Không tìm thấy phần tử thứ 4 với text: MobiGames
+2026-05-06 20:11:34,290 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (24.74s)
+2026-05-06 20:11:34,291 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/Login/test_1homepage_login.py
+2026-05-06 20:11:34,291 | ERROR | 📍 Line: 191
+2026-05-06 20:11:34,291 | ERROR | 📍 Error: AssertionError: assert False
+ +  where False = is_result_displayed('Gửi yêu cầu huỷ thành công')
+ +    where is_result_displayed = <pages.HomePage_page.HomePage object at 0x105584820>.is_result_displayed
+2026-05-06 20:14:00,044 | ERROR | [test_mobigames_register_tc16] ❌ FAILED (31.05s)
+2026-05-06 20:14:00,045 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:14:00,045 | ERROR | 📍 Line: 138
+2026-05-06 20:14:00,045 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
@@ -377,37 +311,690 @@ NoSuchElementError: An element could not be located on the page using the given 
     at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
     at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
     at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2026-05-06 18:22:23,214 | INFO | [test_check_view_all_pakage_tc144] ✅ PASSED (11.18s)
-2026-05-06 18:22:30,591 | INFO | [test_click_button_login_tc145] ✅ PASSED (4.21s)
-2026-05-06 18:22:37,780 | INFO | [test_click_button_login_tc146] ✅ PASSED (4.25s)
-2026-05-06 18:22:44,264 | INFO | [test_click_link_mypoint_tc147] ✅ PASSED (3.59s)
-2026-05-06 18:23:20,183 | INFO | [test_click_deals_point_out_tc148] ✅ PASSED (33.0s)
-2026-05-06 18:23:49,980 | INFO | [test_click_deals_point_in_tc149] ✅ PASSED (26.64s)
-2026-05-06 18:24:23,173 | INFO | [test_click_deals_point_other_out_tc150] ✅ PASSED (30.18s)
-2026-05-06 18:24:52,093 | INFO | [test_click_deals_point_other_in_tc151] ✅ PASSED (25.69s)
-2026-05-06 18:25:02,928 | INFO | [test_click_button_login_tc152] ✅ PASSED (7.76s)
-2026-05-06 18:25:13,761 | INFO | [test_click_button_login_tc153] ✅ PASSED (7.9s)
-2026-05-06 18:25:35,630 | INFO | [test_click_banner_tc154] ✅ PASSED (18.91s)
-2026-05-06 18:26:08,410 | ERROR | [test_click_services_tc155] ❌ FAILED (29.56s)
-2026-05-06 18:26:08,411 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/No_Login/test_4servicespage_no_login.py
-2026-05-06 18:26:08,411 | ERROR | 📍 Line: 44
-2026-05-06 18:26:08,411 | ERROR | 📍 Error: AssertionError: assert False
+2026-05-06 20:20:17,614 | ERROR | [test_search_package_tc40] ❌ FAILED (24.88s)
+2026-05-06 20:20:17,614 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:20:17,614 | ERROR | 📍 Line: 138
+2026-05-06 20:20:17,614 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:20:27,708 | INFO | [test_search_package_tc41] ✅ PASSED (6.78s)
+2026-05-06 20:20:39,478 | INFO | [test_search_services_tc43] ✅ PASSED (8.52s)
+2026-05-06 20:20:48,929 | INFO | [test_search_services_tc44] ✅ PASSED (6.34s)
+2026-05-06 20:21:16,514 | ERROR | [test_register_pakage_search_tc45] ❌ FAILED (24.52s)
+2026-05-06 20:21:16,515 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:21:16,515 | ERROR | 📍 Line: 138
+2026-05-06 20:21:16,515 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:21:44,132 | ERROR | [test_unregister_pakage_search_tc46] ❌ FAILED (24.31s)
+2026-05-06 20:21:44,133 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:21:44,133 | ERROR | 📍 Line: 138
+2026-05-06 20:21:44,133 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:21:53,186 | ERROR | [test_create_pakage_OTP_tc47] ❌ FAILED (5.83s)
+2026-05-06 20:21:53,187 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:21:53,187 | ERROR | 📍 Line: 125
+2026-05-06 20:21:53,187 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:22:20,123 | ERROR | [test_create_pakage_flex_OTP_tc48] ❌ FAILED (23.85s)
+2026-05-06 20:22:20,125 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:22:20,125 | ERROR | 📍 Line: 138
+2026-05-06 20:22:20,125 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:22:38,816 | INFO | [test_find_pakage_tc49] ✅ PASSED (15.57s)
+2026-05-06 20:22:46,996 | INFO | [test_click_check_tc50] ✅ PASSED (4.9s)
+2026-05-06 20:23:06,621 | INFO | [test_popular_country_tc51] ✅ PASSED (16.42s)
+2026-05-06 20:23:44,147 | ERROR | [test_create_pakage_roaming_tc52] ❌ FAILED (33.22s)
+2026-05-06 20:23:44,148 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:23:44,148 | ERROR | 📍 Line: 138
+2026-05-06 20:23:44,148 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:24:20,882 | ERROR | [test_create_pakage_roaming_tc52_1] ❌ FAILED (33.43s)
+2026-05-06 20:24:20,884 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:24:20,884 | ERROR | 📍 Line: 138
+2026-05-06 20:24:20,884 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:24:56,107 | ERROR | [test_cancel_pakage_roaming_tc53] ❌ FAILED (31.92s)
+2026-05-06 20:24:56,109 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:24:56,109 | ERROR | 📍 Line: 138
+2026-05-06 20:24:56,109 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:25:14,465 | INFO | [test_click_guide_by_text_tc54] ✅ PASSED (15.03s)
+2026-05-06 20:25:29,641 | INFO | [test_click_question_by_text_tc55] ✅ PASSED (11.91s)
+2026-05-06 20:25:37,113 | ERROR | [test_click_list_categories_tc58] ❌ FAILED (4.24s)
+2026-05-06 20:25:37,114 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:25:37,114 | ERROR | 📍 Line: 125
+2026-05-06 20:25:37,114 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:26:06,648 | ERROR | [test_click_radio_button_cycle_tc59] ❌ FAILED (26.54s)
+2026-05-06 20:26:06,648 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:26:06,648 | ERROR | 📍 Line: 138
+2026-05-06 20:26:06,649 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:26:34,028 | ERROR | [test_click_sort_price_tc60] ❌ FAILED (24.38s)
+2026-05-06 20:26:34,029 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:26:34,029 | ERROR | 📍 Line: 138
+2026-05-06 20:26:34,029 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:27:01,624 | ERROR | [test_click_sort_data_tc61] ❌ FAILED (24.62s)
+2026-05-06 20:27:01,625 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:27:01,625 | ERROR | 📍 Line: 138
+2026-05-06 20:27:01,626 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:27:30,385 | ERROR | [test_search_pakage_tc62] ❌ FAILED (25.76s)
+2026-05-06 20:27:30,386 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:27:30,386 | ERROR | 📍 Line: 138
+2026-05-06 20:27:30,386 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:27:40,177 | INFO | [test_search_pakage_tc63] ✅ PASSED (6.58s)
+2026-05-06 20:28:10,341 | ERROR | [test_register_pakage_tc64] ❌ FAILED (27.09s)
+2026-05-06 20:28:10,343 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:28:10,343 | ERROR | 📍 Line: 138
+2026-05-06 20:28:10,343 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:28:40,577 | ERROR | [test_register_pakage] ❌ FAILED (27.05s)
+2026-05-06 20:28:40,578 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:28:40,579 | ERROR | 📍 Line: 138
+2026-05-06 20:28:40,579 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:28:47,853 | ERROR | [test_book_roaming_tc66] ❌ FAILED (4.31s)
+2026-05-06 20:28:47,853 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:28:47,853 | ERROR | 📍 Line: 125
+2026-05-06 20:28:47,853 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:28:55,261 | ERROR | [test_book_roaming_tc67] ❌ FAILED (4.4s)
+2026-05-06 20:28:55,262 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:28:55,262 | ERROR | 📍 Line: 125
+2026-05-06 20:28:55,262 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:29:34,101 | ERROR | [test_gift_pakage_tc68] ❌ FAILED (35.86s)
+2026-05-06 20:29:34,102 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:29:34,102 | ERROR | 📍 Line: 138
+2026-05-06 20:29:34,102 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:29:45,790 | INFO | [test_share_pakage_tc69] ✅ PASSED (8.36s)
+2026-05-06 20:30:10,592 | INFO | [test_click_utilities_tc70] ✅ PASSED (21.66s)
+2026-05-06 20:34:53,871 | ERROR | [test_create_pakage_OTP_tc47] ❌ FAILED (5.48s)
+2026-05-06 20:34:53,872 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:34:53,872 | ERROR | 📍 Line: 125
+2026-05-06 20:34:53,872 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:37:11,053 | ERROR | [test_create_pakage_OTP_tc47] ❌ FAILED (27.73s)
+2026-05-06 20:37:11,053 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:37:11,053 | ERROR | 📍 Line: 138
+2026-05-06 20:37:11,054 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:38:27,467 | ERROR | [test_create_pakage_flex_OTP_tc48] ❌ FAILED (24.59s)
+2026-05-06 20:38:27,467 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:38:27,467 | ERROR | 📍 Line: 138
+2026-05-06 20:38:27,467 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:40:10,040 | INFO | [test_create_pakage_flex_OTP_tc48] ✅ PASSED (7.81s)
+2026-05-06 20:41:46,787 | ERROR | [test_create_pakage_roaming_tc52] ❌ FAILED (33.23s)
+2026-05-06 20:41:46,787 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:41:46,787 | ERROR | 📍 Line: 138
+2026-05-06 20:41:46,787 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:43:13,643 | ERROR | [test_click_list_categories_tc58] ❌ FAILED (4.04s)
+2026-05-06 20:43:13,643 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 20:43:13,643 | ERROR | 📍 Line: 125
+2026-05-06 20:43:13,644 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:44:45,107 | INFO | [test_click_radio_button_cycle_tc59] ✅ PASSED (7.11s)
+2026-05-06 20:46:04,936 | ERROR | [test_click_sort_price_tc60] ❌ FAILED (24.39s)
+2026-05-06 20:46:04,936 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:46:04,936 | ERROR | 📍 Line: 138
+2026-05-06 20:46:04,936 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:47:57,248 | INFO | [test_click_sort_price_tc60] ✅ PASSED (4.79s)
+2026-05-06 20:48:05,319 | INFO | [test_click_sort_data_tc61] ✅ PASSED (5.06s)
+2026-05-06 20:49:34,079 | ERROR | [test_search_pakage_tc62] ❌ FAILED (22.86s)
+2026-05-06 20:49:34,079 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:49:34,079 | ERROR | 📍 Line: 138
+2026-05-06 20:49:34,079 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message:
+2026-05-06 20:50:54,388 | ERROR | [test_search_pakage_tc62] ❌ FAILED (25.59s)
+2026-05-06 20:50:54,388 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:50:54,388 | ERROR | 📍 Line: 138
+2026-05-06 20:50:54,388 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:54:12,638 | ERROR | [test_search_package_tc71] ❌ FAILED (25.12s)
+2026-05-06 20:54:12,639 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:54:12,639 | ERROR | 📍 Line: 138
+2026-05-06 20:54:12,639 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:54:23,112 | INFO | [test_search_package_tc72] ✅ PASSED (7.25s)
+2026-05-06 20:55:03,028 | ERROR | [test_save_point_tc73] ❌ FAILED (36.56s)
+2026-05-06 20:55:03,029 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:55:03,030 | ERROR | 📍 Line: 138
+2026-05-06 20:55:03,030 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message:
+2026-05-06 20:55:31,064 | ERROR | [test_point_history_tc74] ❌ FAILED (24.72s)
+2026-05-06 20:55:31,065 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:55:31,065 | ERROR | 📍 Line: 138
+2026-05-06 20:55:31,065 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:55:40,719 | INFO | [test_point_history_tc75] ✅ PASSED (6.41s)
+2026-05-06 20:55:54,715 | INFO | [test_save_point_tc76] ✅ PASSED (11.01s)
+2026-05-06 20:56:07,554 | INFO | [test_sell_point_tc77] ✅ PASSED (9.92s)
+2026-05-06 20:56:28,307 | ERROR | [test_tc78] ❌ FAILED (17.57s)
+2026-05-06 20:56:28,308 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/DealsPage_page.py
+2026-05-06 20:56:28,309 | ERROR | 📍 Line: 138
+2026-05-06 20:56:28,309 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Đổi điểm lấy quà
+2026-05-06 20:56:49,081 | ERROR | [test_detail_voucher] ❌ FAILED (17.48s)
+2026-05-06 20:56:49,081 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/DealsPage_page.py
+2026-05-06 20:56:49,081 | ERROR | 📍 Line: 138
+2026-05-06 20:56:49,081 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Đổi điểm lấy quà
+2026-05-06 20:57:19,976 | ERROR | [test_click_deals_point_out] ❌ FAILED (27.83s)
+2026-05-06 20:57:19,978 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:57:19,978 | ERROR | 📍 Line: 138
+2026-05-06 20:57:19,978 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:57:50,227 | INFO | [test_click_deals_point_in] ✅ PASSED (27.28s)
+2026-05-06 20:58:16,285 | ERROR | [test_click_deals_point_other_out] ❌ FAILED (23.15s)
+2026-05-06 20:58:16,286 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 20:58:16,286 | ERROR | 📍 Line: 138
+2026-05-06 20:58:16,286 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 20:58:46,094 | INFO | [test_click_deals_point_other_in] ✅ PASSED (26.8s)
+2026-05-06 21:02:48,123 | ERROR | [test_click_deals_point_other_out_tc82] ❌ FAILED (27.8s)
+2026-05-06 21:02:48,124 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:02:48,124 | ERROR | 📍 Line: 138
+2026-05-06 21:02:48,124 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:07:02,167 | INFO | [test_click_deals_point_other_out_tc82] ✅ PASSED (34.39s)
+2026-05-06 21:09:00,747 | ERROR | [test_click_deals_point_other_out_tc150] ❌ FAILED (25.43s)
+2026-05-06 21:09:00,747 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:09:00,747 | ERROR | 📍 Line: 138
+2026-05-06 21:09:00,747 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:10:42,771 | INFO | [test_click_deals_point_other_out_tc150] ✅ PASSED (29.45s)
+2026-05-06 21:17:39,386 | ERROR | [test_click_deals_point_out_tc80] ❌ FAILED (30.92s)
+2026-05-06 21:17:39,386 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:17:39,386 | ERROR | 📍 Line: 138
+2026-05-06 21:17:39,386 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:21:21,545 | ERROR | [test_click_deals_point_out_tc80] ❌ FAILED (30.91s)
+2026-05-06 21:21:21,545 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:21:21,545 | ERROR | 📍 Line: 138
+2026-05-06 21:21:21,545 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:23:24,205 | ERROR | [test_click_deals_point_out_tc80] ❌ FAILED (7.03s)
+2026-05-06 21:23:24,206 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/Login/test_3dealspage_login.py
+2026-05-06 21:23:24,206 | ERROR | 📍 Line: 118
+2026-05-06 21:23:24,206 | ERROR | 📍 Error: TypeError: click_by_text1() missing 1 required positional argument: 'index'
+2026-05-06 21:26:23,306 | ERROR | [test_click_deals_point_out_tc80] ❌ FAILED (7.17s)
+2026-05-06 21:26:23,307 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/Login/test_3dealspage_login.py
+2026-05-06 21:26:23,307 | ERROR | 📍 Line: 118
+2026-05-06 21:26:23,307 | ERROR | 📍 Error: TypeError: click_by_text1() missing 1 required positional argument: 'index'
+2026-05-06 21:28:09,577 | ERROR | [test_click_deals_point_out_tc80] ❌ FAILED (30.59s)
+2026-05-06 21:28:09,578 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/pages/DealsPage_page.py
+2026-05-06 21:28:09,578 | ERROR | 📍 Line: 112
+2026-05-06 21:28:09,578 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Giáo dục
+2026-05-06 21:29:22,229 | INFO | [test_click_deals_point_out_tc80] ✅ PASSED (35.86s)
+2026-05-06 21:30:02,256 | ERROR | [test_click_deals_point_in_tc81] ❌ FAILED (22.53s)
+2026-05-06 21:30:02,256 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:30:02,256 | ERROR | 📍 Line: 138
+2026-05-06 21:30:02,256 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message:
+2026-05-06 21:32:45,984 | INFO | [test_click_deals_point_in_tc81] ✅ PASSED (28.34s)
+2026-05-06 21:33:23,510 | INFO | [test_click_deals_point_in_tc81] ✅ PASSED (31.36s)
+2026-05-06 21:38:38,233 | INFO | [test_click_deals_point_in_tc81] ✅ PASSED (31.83s)
+2026-05-06 21:39:18,519 | INFO | [test_click_deals_point_other_out_tc82] ✅ PASSED (33.01s)
+2026-05-06 21:40:05,060 | INFO | [test_click_deals_point_other_in_tc83] ✅ PASSED (26.22s)
+2026-05-06 21:41:31,809 | ERROR | [test_search_package_tc84] ❌ FAILED (9.49s)
+2026-05-06 21:41:31,809 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/Login/test_4servicespage_login.py
+2026-05-06 21:41:31,810 | ERROR | 📍 Line: 14
+2026-05-06 21:41:31,810 | ERROR | 📍 Error: AssertionError: assert False
+ +  where False = is_result_displayed('G\xf3i Data ng\xe0y D5')
+ +    where is_result_displayed = <pages.ServicesPage_page.ServicesPage object at 0x106b18a00>.is_result_displayed
+2026-05-06 21:41:45,626 | INFO | [test_search_package_tc85] ✅ PASSED (10.79s)
+2026-05-06 21:41:58,645 | INFO | [test_search_package_tc86] ✅ PASSED (9.94s)
+2026-05-06 21:42:20,751 | INFO | [test_scroll_banner_tc87] ✅ PASSED (19.13s)
+2026-05-06 21:42:31,415 | INFO | [test_scroll_banner_tc88] ✅ PASSED (7.6s)
+2026-05-06 21:43:06,040 | ERROR | [test_scroll_services] ❌ FAILED (31.57s)
+2026-05-06 21:43:06,041 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/Login/test_4servicespage_login.py
+2026-05-06 21:43:06,041 | ERROR | 📍 Line: 63
+2026-05-06 21:43:06,041 | ERROR | 📍 Error: AssertionError: assert False
  +  where False = is_result_displayed('D\u1ecbch v\u1ee5 n\u1ed5i b\u1eadt')
- +    where is_result_displayed = <pages.ServicesPage_page.ServicesPage object at 0x1111066d0>.is_result_displayed
-2026-05-06 18:27:06,989 | INFO | [test_click_services_tc156] ✅ PASSED (55.31s)
-2026-05-06 18:27:13,745 | INFO | [test_click_button_login_tc157] ✅ PASSED (3.47s)
-2026-05-06 18:27:24,508 | INFO | [test_check_tab_introduce_tc158] ✅ PASSED (7.75s)
-2026-05-06 18:27:30,641 | INFO | [test_click_button_exchange_tc159] ✅ PASSED (3.13s)
-2026-05-06 18:27:36,930 | INFO | [test_click_button_detail_tc160] ✅ PASSED (3.21s)
-2026-05-06 18:27:46,560 | INFO | [test_check_tab_introduce_tc161] ✅ PASSED (6.69s)
-2026-05-06 18:28:01,496 | INFO | [test_list_deal_kndl_tc162] ✅ PASSED (11.78s)
-2026-05-06 18:34:14,549 | INFO | [test_click_cycle_tc141] ✅ PASSED (7.2s)
-2026-05-06 18:34:22,209 | INFO | [test_click_sort_price_tc142] ✅ PASSED (4.73s)
-2026-05-06 18:34:30,181 | INFO | [test_click_sort_data_tc143] ✅ PASSED (4.98s)
-2026-05-06 18:35:03,034 | ERROR | [test_click_services_tc155] ❌ FAILED (29.81s)
-2026-05-06 18:35:03,034 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/No_Login/test_4servicespage_no_login.py
-2026-05-06 18:35:03,034 | ERROR | 📍 Line: 45
-2026-05-06 18:35:03,034 | ERROR | 📍 Error: AssertionError: assert False
- +  where False = is_result_displayed('Dịch vụ nổi bật')
- +    where is_result_displayed = <pages.ServicesPage_page.ServicesPage object at 0x107f740d0>.is_result_displayed
-2026-05-06 18:36:56,958 | INFO | [test_click_services_tc155] ✅ PASSED (27.8s)
+ +    where is_result_displayed = <pages.ServicesPage_page.ServicesPage object at 0x106b979a0>.is_result_displayed
+2026-05-06 21:43:25,703 | INFO | [test_register_services_tc90] ✅ PASSED (16.43s)
+2026-05-06 21:43:56,744 | ERROR | [test_unregister_services] ❌ FAILED (27.86s)
+2026-05-06 21:43:56,744 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:43:56,745 | ERROR | 📍 Line: 138
+2026-05-06 21:43:56,745 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:44:36,411 | ERROR | [test_click_services_tc92] ❌ FAILED (36.43s)
+2026-05-06 21:44:36,411 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:44:36,411 | ERROR | 📍 Line: 138
+2026-05-06 21:44:36,411 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:47:11,225 | ERROR | [test_click_services_tc92] ❌ FAILED (43.41s)
+2026-05-06 21:47:11,226 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:47:11,226 | ERROR | 📍 Line: 138
+2026-05-06 21:47:11,226 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:48:11,848 | ERROR | [test_click_services_tc92] ❌ FAILED (9.82s)
+2026-05-06 21:48:11,848 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 21:48:11,849 | ERROR | 📍 Line: 125
+2026-05-06 21:48:11,849 | ERROR | 📍 Error: selenium.common.exceptions.StaleElementReferenceException: Message: The previously found element ""K+ data" StaticText" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Error getting main window kAXErrorInvalidUIElement; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+ProxyRequestError: Request failed with status code 404
+    at JWProxy.proxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:297:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ProtocolConverter.convertAndProxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/protocol-converter.ts:132:12)
+    at JWProxy.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:335:12)
+    at JWProxy.proxyReqRes (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:413:32)
+2026-05-06 21:49:39,545 | ERROR | [test_click_services_tc92] ❌ FAILED (15.93s)
+2026-05-06 21:49:39,545 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-06 21:49:39,545 | ERROR | 📍 Line: 125
+2026-05-06 21:49:39,545 | ERROR | 📍 Error: selenium.common.exceptions.StaleElementReferenceException: Message: The previously found element ""iflix" StaticText" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Error getting main window kAXErrorInvalidUIElement; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+ProxyRequestError: Request failed with status code 404
+    at JWProxy.proxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:297:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ProtocolConverter.convertAndProxy (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/protocol-converter.ts:132:12)
+    at JWProxy.proxyCommand (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:335:12)
+    at JWProxy.proxyReqRes (/Users/user/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:413:32)
+2026-05-06 21:52:57,171 | INFO | [test_click_services_tc92] ✅ PASSED (54.65s)
+2026-05-06 21:54:12,136 | ERROR | [test_unregister_services] ❌ FAILED (34.38s)
+2026-05-06 21:54:12,137 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:54:12,137 | ERROR | 📍 Line: 138
+2026-05-06 21:54:12,137 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:55:47,270 | INFO | [test_check_tab_introduce_tc93] ✅ PASSED (7.51s)
+2026-05-06 21:56:27,313 | ERROR | [test_change_point_tc94] ❌ FAILED (36.79s)
+2026-05-06 21:56:27,314 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:56:27,314 | ERROR | 📍 Line: 138
+2026-05-06 21:56:27,314 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:57:04,605 | ERROR | [test_change_combo_pakage_tc95] ❌ FAILED (34.03s)
+2026-05-06 21:57:04,606 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:57:04,606 | ERROR | 📍 Line: 138
+2026-05-06 21:57:04,606 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:57:42,321 | ERROR | [test_change_voice_pakage_tc96] ❌ FAILED (34.51s)
+2026-05-06 21:57:42,321 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:57:42,322 | ERROR | 📍 Line: 138
+2026-05-06 21:57:42,322 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:57:54,101 | ERROR | [test_change_gift_pakage_tc97] ❌ FAILED (8.69s)
+2026-05-06 21:57:54,102 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Dev/ios/tests_TC/Login/test_5kndlpage_login.py
+2026-05-06 21:57:54,103 | ERROR | 📍 Line: 68
+2026-05-06 21:57:54,103 | ERROR | 📍 Error: AttributeError: 'KndlPage' object has no attribute 'click_buttom_confirm'
+2026-05-06 21:58:32,503 | ERROR | [test_change_data_code_tc98] ❌ FAILED (35.2s)
+2026-05-06 21:58:32,504 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:58:32,504 | ERROR | 📍 Line: 138
+2026-05-06 21:58:32,504 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:59:11,847 | ERROR | [test_change_VETC_tc99] ❌ FAILED (36.04s)
+2026-05-06 21:59:11,848 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 21:59:11,848 | ERROR | 📍 Line: 138
+2026-05-06 21:59:11,848 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 21:59:19,540 | INFO | [test_click_button_reload_tc100] ✅ PASSED (4.36s)
+2026-05-06 21:59:27,263 | INFO | [test_button_seemore_tc101] ✅ PASSED (4.77s)
+2026-05-06 21:59:36,527 | INFO | [test_button_register_tc102] ✅ PASSED (6.24s)
+2026-05-06 21:59:50,943 | INFO | [test_swipe_banner_tc103] ✅ PASSED (11.2s)
+2026-05-06 21:59:57,404 | INFO | [test_check_history_tc104] ✅ PASSED (3.36s)
+2026-05-06 22:00:31,040 | ERROR | [test_list_deal_kndl_tc105] ❌ FAILED (30.66s)
+2026-05-06 22:00:31,040 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 22:00:31,040 | ERROR | 📍 Line: 138
+2026-05-06 22:00:31,040 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 22:04:37,874 | ERROR | [test_change_combo_pakage_tc95] ❌ FAILED (34.35s)
+2026-05-06 22:04:37,875 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 22:04:37,875 | ERROR | 📍 Line: 138
+2026-05-06 22:04:37,875 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 22:05:31,750 | ERROR | [test_change_VETC_tc99] ❌ FAILED (35.84s)
+2026-05-06 22:05:31,751 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 22:05:31,751 | ERROR | 📍 Line: 138
+2026-05-06 22:05:31,751 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 22:06:24,908 | ERROR | [test_list_deal_kndl_tc105] ❌ FAILED (31.95s)
+2026-05-06 22:06:24,909 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 22:06:24,909 | ERROR | 📍 Line: 138
+2026-05-06 22:06:24,909 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 22:07:22,448 | ERROR | [test_list_deal_kndl_tc105] ❌ FAILED (32.57s)
+2026-05-06 22:07:22,449 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 22:07:22,449 | ERROR | 📍 Line: 138
+2026-05-06 22:07:22,449 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-06 22:09:24,700 | ERROR | [test_list_deal_kndl_tc105] ❌ FAILED (30.07s)
+2026-05-06 22:09:24,701 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-06 22:09:24,701 | ERROR | 📍 Line: 138
+2026-05-06 22:09:24,701 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at XCUITestDriver.doNativeFind (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:205:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at XCUITestDriver.findNativeElementOrElements (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:130:7)
+    at XCUITestDriver.findElOrEls (/Users/user/node_modules/appium-xcuitest-driver/lib/commands/find.ts:54:7)
+    at XCUITestDriver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at XCUITestDriver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)

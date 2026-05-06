@@ -1,3 +1,6 @@
+from email.mime import text
+from operator import index
+
 from appium.webdriver.common.appiumby import AppiumBy
 from pages.BasePage_page import BasePage
 from pages.LocatorPage_page import LocatorPage
@@ -18,14 +21,17 @@ class HomePage(BasePage):
         xpath = f'//XCUIElementTypeStaticText[@name="{text}"][{index}]'
         element = self.driver.find_element(AppiumBy.XPATH, xpath)
         element.click()
-    def click_by_text1(self, text):
-        el = WebDriverWait(self.driver, 10).until(
-            lambda d: d.find_element(
-            "-ios predicate string",
+    def click_by_text1(self, text, index):
+        els = WebDriverWait(self.driver, 10).until(
+            lambda d: d.find_elements(
+                "-ios predicate string",
                 f"name == '{text}'"
-            )
         )
-        el.click()
+    )
+        if len(els) > index:
+            els[index].click()
+        else:
+            raise Exception(f"Không tìm thấy phần tử thứ {index+1} với text: {text}")
     def click_button_by_text(self, text, index=1, times = 1):
         xpath = f'(//XCUIElementTypeButton[@name="{text}"])[{index}]'
         element = self.wait.until(
@@ -196,6 +202,8 @@ class HomePage(BasePage):
     #Click card KNDL (SĐT đã đăng ký KNDL)
     def click_card_kndl(self):
         self.click(self.locators.KNDL)
+    def click_card_kndl1(self):
+        self.click(self.locators.KNDL1)
     #Click button đăng ký D5
     def click_register_d5(self):
         self.click(self.locators.REGISTER_BUTTON)
