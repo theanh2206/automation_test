@@ -1,0 +1,920 @@
+2026-05-17 13:24:36,426 | INFO | [test_search_package_D5_tc01] ✅ PASSED (14.12s)
+2026-05-17 13:24:54,832 | INFO | [test_search_package_tc02] ✅ PASSED (14.41s)
+2026-05-17 13:25:13,422 | INFO | [test_search_package_DV_tc03] ✅ PASSED (14.45s)
+2026-05-17 13:25:28,762 | INFO | [test_click_avata_tc04] ✅ PASSED (11.18s)
+2026-05-17 13:25:43,636 | INFO | [test_click_notification_tc05] ✅ PASSED (10.99s)
+2026-05-17 13:26:17,843 | ERROR | [test_click_menu_tc06] ❌ FAILED (30.03s)
+2026-05-17 13:26:17,843 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:26:17,843 | ERROR | 📍 Line: 138
+2026-05-17 13:26:17,843 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:26:33,299 | INFO | [test_click_information_tc07] ✅ PASSED (11.57s)
+2026-05-17 13:26:50,007 | INFO | [test_click_infor_subcriber_tc08] ✅ PASSED (12.41s)
+2026-05-17 13:27:07,114 | INFO | [test_click_infor_lookup_tc09] ✅ PASSED (13.33s)
+2026-05-17 13:27:23,412 | INFO | [test_click_deposite_history_tc10] ✅ PASSED (12.31s)
+2026-05-17 13:27:39,764 | INFO | [test_click_subcriber_history_tc11] ✅ PASSED (12.51s)
+2026-05-17 13:28:03,845 | INFO | [test_click_buy_pakage_tc12] ✅ PASSED (20.23s)
+2026-05-17 13:28:28,461 | INFO | [test_click_card_kndl_tc13_1] ✅ PASSED (20.82s)
+2026-05-17 13:29:28,836 | ERROR | [test_click_utilities_tc13_2] ❌ FAILED (56.5s)
+2026-05-17 13:29:28,836 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:29:28,836 | ERROR | 📍 Line: 138
+2026-05-17 13:29:28,836 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:29:59,982 | ERROR | [test_register_tc14] ❌ FAILED (27.2s)
+2026-05-17 13:29:59,982 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:29:59,982 | ERROR | 📍 Line: 235
+2026-05-17 13:29:59,982 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Tiếp tục
+2026-05-17 13:30:38,777 | INFO | [test_unregister_tc15] ✅ PASSED (34.81s)
+2026-05-17 13:31:16,643 | ERROR | [test_mobigames_register_tc16] ❌ FAILED (34.11s)
+2026-05-17 13:31:16,644 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:31:16,644 | ERROR | 📍 Line: 138
+2026-05-17 13:31:16,644 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:31:55,369 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (34.63s)
+2026-05-17 13:31:55,369 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:31:55,369 | ERROR | 📍 Line: 138
+2026-05-17 13:31:55,369 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:32:26,899 | INFO | [test_unregister_my_pakage_tc18] ✅ PASSED (27.62s)
+2026-05-17 13:33:01,739 | ERROR | [test_extend_pakage_tc19] ❌ FAILED (31.03s)
+2026-05-17 13:33:01,740 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:33:01,740 | ERROR | 📍 Line: 138
+2026-05-17 13:33:01,740 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:33:49,517 | ERROR | [test_unextend_pakage_tc20] ❌ FAILED (43.89s)
+2026-05-17 13:33:49,517 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:33:49,517 | ERROR | 📍 Line: 138
+2026-05-17 13:33:49,517 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:34:10,416 | ERROR | [test_reschedule_tc21] ❌ FAILED (16.94s)
+2026-05-17 13:34:10,416 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 13:34:10,416 | ERROR | 📍 Line: 125
+2026-05-17 13:34:10,416 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:34:32,394 | ERROR | [test_cancel_shedule_tc22] ❌ FAILED (18.06s)
+2026-05-17 13:34:32,395 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 13:34:32,395 | ERROR | 📍 Line: 125
+2026-05-17 13:34:32,395 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:34:47,669 | INFO | [test_buy_pakage_tc23] ✅ PASSED (11.32s)
+2026-05-17 13:35:02,749 | INFO | [test_recharge_tc24] ✅ PASSED (11.2s)
+2026-05-17 13:35:41,307 | ERROR | [test_change_number_tc25] ❌ FAILED (34.73s)
+2026-05-17 13:35:41,307 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:35:41,307 | ERROR | 📍 Line: 138
+2026-05-17 13:35:41,307 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message:
+2026-05-17 13:36:13,843 | ERROR | [test_click_utilities_tc26] ❌ FAILED (28.67s)
+2026-05-17 13:36:13,843 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:36:13,843 | ERROR | 📍 Line: 245
+2026-05-17 13:36:13,843 | ERROR | 📍 Error: Exception: Không tìm thấy button với resource-id: vms.com.vn.mymobifone:id/btCancel
+2026-05-17 13:36:50,354 | ERROR | [test_click_utilities_tc27] ❌ FAILED (32.57s)
+2026-05-17 13:36:50,354 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:36:50,355 | ERROR | 📍 Line: 138
+2026-05-17 13:36:50,355 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:37:32,743 | ERROR | [test_click_card_kndl_tc29] ❌ FAILED (38.54s)
+2026-05-17 13:37:32,743 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:37:32,743 | ERROR | 📍 Line: 138
+2026-05-17 13:37:32,743 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:38:17,125 | ERROR | [test_click_services_tc30] ❌ FAILED (40.49s)
+2026-05-17 13:38:17,125 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:38:17,125 | ERROR | 📍 Line: 138
+2026-05-17 13:38:17,125 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:38:46,757 | ERROR | [test_click_services_tc31] ❌ FAILED (25.58s)
+2026-05-17 13:38:46,758 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:38:46,758 | ERROR | 📍 Line: 235
+2026-05-17 13:38:46,758 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: ON2
+2026-05-17 13:39:11,160 | INFO | [test_click_services_tc32] ✅ PASSED (20.72s)
+2026-05-17 13:39:39,849 | ERROR | [test_click_servicestc33] ❌ FAILED (24.58s)
+2026-05-17 13:39:39,850 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:39:39,850 | ERROR | 📍 Line: 235
+2026-05-17 13:39:39,850 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Ltest VieON data 4
+2026-05-17 13:40:13,345 | ERROR | [test_click_customer_support_tc34] ❌ FAILED (29.69s)
+2026-05-17 13:40:13,345 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:40:13,345 | ERROR | 📍 Line: 235
+2026-05-17 13:40:13,345 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Gói cước
+2026-05-17 13:40:45,635 | ERROR | [test_click_customer_support_tc35] ❌ FAILED (28.45s)
+2026-05-17 13:40:45,635 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:40:45,635 | ERROR | 📍 Line: 235
+2026-05-17 13:40:45,635 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Kích hoạt sim
+2026-05-17 13:41:17,862 | ERROR | [test_click_customer_support_tc36] ❌ FAILED (28.62s)
+2026-05-17 13:41:17,863 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:41:17,863 | ERROR | 📍 Line: 235
+2026-05-17 13:41:17,863 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Mua eSIM du lịch quốc tế
+2026-05-17 13:41:49,983 | ERROR | [test_click_customer_support_tc37] ❌ FAILED (28.23s)
+2026-05-17 13:41:49,984 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:41:49,984 | ERROR | 📍 Line: 235
+2026-05-17 13:41:49,984 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Thông tin thuê bao
+2026-05-17 13:42:33,143 | ERROR | [test_click_banner_tc38] ❌ FAILED (39.44s)
+2026-05-17 13:42:33,144 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 13:42:33,144 | ERROR | 📍 Line: 138
+2026-05-17 13:42:33,144 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:42:56,906 | ERROR | [test_click_banner_tc39] ❌ FAILED (19.74s)
+2026-05-17 13:42:56,906 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 13:42:56,906 | ERROR | 📍 Line: 125
+2026-05-17 13:42:56,906 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:43:19,094 | ERROR | [test_click_banner_tc39_1] ❌ FAILED (18.34s)
+2026-05-17 13:43:19,094 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 13:43:19,094 | ERROR | 📍 Line: 125
+2026-05-17 13:43:19,094 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:43:42,729 | ERROR | [test_click_banner_tc39_3] ❌ FAILED (19.64s)
+2026-05-17 13:43:42,729 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 13:43:42,729 | ERROR | 📍 Line: 125
+2026-05-17 13:43:42,729 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 13:49:27,896 | INFO | [test_click_menu_tc06] ✅ PASSED (10.6s)
+2026-05-17 13:54:32,094 | ERROR | [test_click_utilities_tc13_2] ❌ FAILED (26.74s)
+2026-05-17 13:54:32,094 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:54:32,094 | ERROR | 📍 Line: 235
+2026-05-17 13:54:32,094 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Đổi Esim
+2026-05-17 13:56:01,827 | INFO | [test_click_utilities_tc13_2] ✅ PASSED (32.41s)
+2026-05-17 13:58:10,078 | ERROR | [test_register_tc14] ❌ FAILED (28.69s)
+2026-05-17 13:58:10,078 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 13:58:10,078 | ERROR | 📍 Line: 235
+2026-05-17 13:58:10,078 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Xác nhận thanh toán
+2026-05-17 14:00:37,862 | INFO | [test_register_tc14] ✅ PASSED (34.51s)
+2026-05-17 14:04:35,735 | ERROR | [test_mobigames_register_tc16] ❌ FAILED (27.11s)
+2026-05-17 14:04:35,735 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 14:04:35,735 | ERROR | 📍 Line: 235
+2026-05-17 14:04:35,735 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: ĐĂNG KÝ
+2026-05-17 14:06:25,208 | ERROR | [test_mobigames_register_tc16] ❌ FAILED (26.18s)
+2026-05-17 14:06:25,208 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/tests_TC/Login/test_1homepage_login.py
+2026-05-17 14:06:25,208 | ERROR | 📍 Line: 176
+2026-05-17 14:06:25,208 | ERROR | 📍 Error: AssertionError: assert False
+ +  where False = is_result_displayed('Yêu cầu thành công')
+ +    where is_result_displayed = <pages.HomePage_page.HomePage object at 0x106ac5370>.is_result_displayed
+2026-05-17 14:08:42,976 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (23.29s)
+2026-05-17 14:08:42,977 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 14:08:42,977 | ERROR | 📍 Line: 235
+2026-05-17 14:08:42,977 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Hủy
+2026-05-17 14:09:27,988 | ERROR | [test_mobigames_unregister_tc17] ❌ FAILED (27.31s)
+2026-05-17 14:09:27,988 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 14:09:27,988 | ERROR | 📍 Line: 235
+2026-05-17 14:09:27,988 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: ĐỒNG Ý
+2026-05-17 14:10:34,753 | INFO | [test_mobigames_unregister_tc17] ✅ PASSED (29.53s)
+2026-05-17 14:14:02,438 | INFO | [test_unregister_my_pakage_tc18] ✅ PASSED (25.11s)
+2026-05-17 14:16:10,549 | ERROR | [test_change_number_tc25] ❌ FAILED (34.51s)
+2026-05-17 14:16:10,549 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 14:16:10,549 | ERROR | 📍 Line: 138
+2026-05-17 14:16:10,549 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message:
+2026-05-17 14:17:31,237 | INFO | [test_click_utilities_tc26] ✅ PASSED (20.15s)
+2026-05-17 14:19:22,036 | INFO | [test_click_utilities_tc27] ✅ PASSED (22.0s)
+2026-05-17 14:22:41,674 | ERROR | [test_click_utilities_tc28] ❌ FAILED (13.31s)
+2026-05-17 14:22:41,675 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 14:22:41,675 | ERROR | 📍 Line: 125
+2026-05-17 14:22:41,675 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 14:23:26,477 | ERROR | [test_click_utilities_tc28] ❌ FAILED (10.56s)
+2026-05-17 14:23:26,478 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 14:23:26,478 | ERROR | 📍 Line: 125
+2026-05-17 14:23:26,478 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 14:24:42,166 | ERROR | [test_click_utilities_tc28] ❌ FAILED (46.3s)
+2026-05-17 14:24:42,166 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 14:24:42,166 | ERROR | 📍 Line: 138
+2026-05-17 14:24:42,166 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 14:25:39,579 | ERROR | [test_click_utilities_tc28] ❌ FAILED (51.27s)
+2026-05-17 14:25:39,579 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 14:25:39,579 | ERROR | 📍 Line: 138
+2026-05-17 14:25:39,579 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 14:26:52,300 | INFO | [test_click_card_kndl_tc29] ✅ PASSED (17.17s)
+2026-05-17 14:28:17,234 | ERROR | [test_click_services_tc30] ❌ FAILED (30.56s)
+2026-05-17 14:28:17,234 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 14:28:17,234 | ERROR | 📍 Line: 235
+2026-05-17 14:28:17,235 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: MobiSafe
+2026-05-17 14:29:47,554 | ERROR | [test_click_services_tc30] ❌ FAILED (69.23s)
+2026-05-17 14:29:47,555 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 14:29:47,555 | ERROR | 📍 Line: 235
+2026-05-17 14:29:47,555 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: MobiGames
+2026-05-17 14:31:04,266 | INFO | [test_click_services_tc30] ✅ PASSED (57.11s)
+2026-05-17 14:33:29,057 | INFO | [test_click_services_tc32] ✅ PASSED (20.15s)
+2026-05-17 14:33:54,028 | INFO | [test_click_servicestc33] ✅ PASSED (20.7s)
+2026-05-17 14:34:27,424 | ERROR | [test_click_customer_support_tc34] ❌ FAILED (29.24s)
+2026-05-17 14:34:27,424 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/HomePage_page.py
+2026-05-17 14:34:27,424 | ERROR | 📍 Line: 235
+2026-05-17 14:34:27,424 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Gói cước
+2026-05-17 14:36:10,592 | INFO | [test_click_customer_support_tc34] ✅ PASSED (12.68s)
+2026-05-17 14:37:11,976 | INFO | [test_click_customer_support_tc34] ✅ PASSED (20.17s)
+2026-05-17 14:38:01,550 | INFO | [test_click_customer_support_tc35] ✅ PASSED (20.81s)
+2026-05-17 14:39:00,250 | ERROR | [test_click_customer_support_tc36] ❌ FAILED (39.98s)
+2026-05-17 14:39:00,250 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 14:39:00,250 | ERROR | 📍 Line: 138
+2026-05-17 14:39:00,250 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 14:39:42,412 | INFO | [test_click_customer_support_tc36] ✅ PASSED (19.59s)
+2026-05-17 14:40:13,534 | ERROR | [test_click_customer_support_tc37] ❌ FAILED (21.12s)
+2026-05-17 14:40:13,534 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/tests_TC/Login/test_1homepage_login.py
+2026-05-17 14:40:13,534 | ERROR | 📍 Line: 404
+2026-05-17 14:40:13,534 | ERROR | 📍 Error: AssertionError: assert False
+ +  where False = is_result_displayed('Zalo')
+ +    where is_result_displayed = <pages.HomePage_page.HomePage object at 0x121d2f700>.is_result_displayed
+2026-05-17 14:41:08,610 | INFO | [test_click_customer_support_tc37] ✅ PASSED (20.87s)
+2026-05-17 14:42:41,170 | ERROR | [test_click_banner_tc38] ❌ FAILED (37.83s)
+2026-05-17 14:42:41,170 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 14:42:41,170 | ERROR | 📍 Line: 138
+2026-05-17 14:42:41,170 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 14:43:49,773 | INFO | [test_click_banner_tc38] ✅ PASSED (18.65s)
+2026-05-17 14:51:05,839 | INFO | [test_click_banner_tc39] ✅ PASSED (21.18s)
+2026-05-17 14:51:44,384 | INFO | [test_click_banner_tc39_1] ✅ PASSED (26.41s)
+2026-05-17 14:54:11,855 | INFO | [test_click_banner_tc39_3] ✅ PASSED (25.88s)
+2026-05-17 14:59:29,738 | INFO | [test_click_customer_support_tc37] ✅ PASSED (19.7s)
+2026-05-17 15:09:51,098 | INFO | [test_search_package_tc40] ✅ PASSED (14.53s)
+2026-05-17 15:10:10,658 | INFO | [test_search_package_tc41] ✅ PASSED (15.44s)
+2026-05-17 15:10:30,286 | INFO | [test_search_services_tc43] ✅ PASSED (15.77s)
+2026-05-17 15:10:50,381 | INFO | [test_search_services_tc44] ✅ PASSED (15.97s)
+2026-05-17 15:11:21,760 | ERROR | [test_register_pakage_search_tc45] ❌ FAILED (27.15s)
+2026-05-17 15:11:21,760 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 15:11:21,760 | ERROR | 📍 Line: 42
+2026-05-17 15:11:21,760 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Tiếp tục
+2026-05-17 15:12:04,300 | ERROR | [test_unregister_pakage_search_tc46] ❌ FAILED (38.65s)
+2026-05-17 15:12:04,301 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:12:04,301 | ERROR | 📍 Line: 138
+2026-05-17 15:12:04,301 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:12:52,321 | ERROR | [test_create_pakage_OTP_tc47] ❌ FAILED (44.09s)
+2026-05-17 15:12:52,322 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:12:52,322 | ERROR | 📍 Line: 138
+2026-05-17 15:12:52,322 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:13:32,011 | ERROR | [test_create_pakage_flex_OTP_tc48] ❌ FAILED (35.72s)
+2026-05-17 15:13:32,012 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:13:32,012 | ERROR | 📍 Line: 138
+2026-05-17 15:13:32,012 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:14:00,785 | INFO | [test_find_pakage_tc49] ✅ PASSED (24.7s)
+2026-05-17 15:14:17,167 | INFO | [test_click_check_tc50] ✅ PASSED (12.39s)
+2026-05-17 15:14:52,542 | INFO | [test_popular_country_tc51] ✅ PASSED (31.34s)
+2026-05-17 15:15:28,329 | ERROR | [test_create_pakage_roaming_tc52] ❌ FAILED (31.8s)
+2026-05-17 15:15:28,331 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:15:28,331 | ERROR | 📍 Line: 138
+2026-05-17 15:15:28,331 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:16:04,048 | ERROR | [test_create_pakage_roaming_tc52_1] ❌ FAILED (31.64s)
+2026-05-17 15:16:04,050 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:16:04,050 | ERROR | 📍 Line: 138
+2026-05-17 15:16:04,050 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:16:40,103 | ERROR | [test_cancel_pakage_roaming_tc53] ❌ FAILED (32.02s)
+2026-05-17 15:16:40,103 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:16:40,103 | ERROR | 📍 Line: 138
+2026-05-17 15:16:40,103 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:17:15,379 | INFO | [test_click_guide_by_text_tc54] ✅ PASSED (31.42s)
+2026-05-17 15:18:07,099 | ERROR | [test_click_question_by_text_tc55] ❌ FAILED (47.81s)
+2026-05-17 15:18:07,099 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:18:07,100 | ERROR | 📍 Line: 138
+2026-05-17 15:18:07,100 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:18:34,080 | ERROR | [test_register_pakage_tc56] ❌ FAILED (22.82s)
+2026-05-17 15:18:34,080 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 15:18:34,080 | ERROR | 📍 Line: 42
+2026-05-17 15:18:34,080 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Tiếp tục
+2026-05-17 15:19:08,359 | ERROR | [test_unregister_pakage_tc57] ❌ FAILED (30.42s)
+2026-05-17 15:19:08,360 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:19:08,360 | ERROR | 📍 Line: 138
+2026-05-17 15:19:08,360 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:19:46,109 | ERROR | [test_click_list_categories_tc58] ❌ FAILED (33.72s)
+2026-05-17 15:19:46,110 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:19:46,110 | ERROR | 📍 Line: 138
+2026-05-17 15:19:46,110 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:20:05,716 | INFO | [test_click_radio_button_cycle_tc59] ✅ PASSED (15.75s)
+2026-05-17 15:20:18,077 | ERROR | [test_click_sort_price_tc60] ❌ FAILED (8.18s)
+2026-05-17 15:20:18,077 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 15:20:18,077 | ERROR | 📍 Line: 316
+2026-05-17 15:20:18,078 | ERROR | 📍 Error: Exception: Không tìm thấy category tại vị trí: 2
+2026-05-17 15:20:30,137 | ERROR | [test_click_sort_data_tc61] ❌ FAILED (8.14s)
+2026-05-17 15:20:30,138 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 15:20:30,138 | ERROR | 📍 Line: 316
+2026-05-17 15:20:30,138 | ERROR | 📍 Error: Exception: Không tìm thấy category tại vị trí: 2
+2026-05-17 15:20:48,528 | INFO | [test_search_pakage_tc62] ✅ PASSED (14.45s)
+2026-05-17 15:21:13,543 | INFO | [test_search_pakage_tc63] ✅ PASSED (21.31s)
+2026-05-17 15:21:46,944 | ERROR | [test_register_pakage_tc64] ❌ FAILED (29.46s)
+2026-05-17 15:21:46,946 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 15:21:46,947 | ERROR | 📍 Line: 42
+2026-05-17 15:21:46,947 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Tiếp tục
+2026-05-17 15:22:29,101 | ERROR | [test_register_pakage_tc65] ❌ FAILED (37.97s)
+2026-05-17 15:22:29,103 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:22:29,103 | ERROR | 📍 Line: 138
+2026-05-17 15:22:29,103 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:22:43,634 | ERROR | [test_book_roaming_tc66] ❌ FAILED (10.53s)
+2026-05-17 15:22:43,634 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/tests_TC/Login/test_2buypakagepage_login.py
+2026-05-17 15:22:43,634 | ERROR | 📍 Line: 424
+2026-05-17 15:22:43,634 | ERROR | 📍 Error: TypeError: click_button_detail() missing 1 required positional argument: 'index'
+2026-05-17 15:22:59,158 | ERROR | [test_book_roaming_tc67] ❌ FAILED (11.65s)
+2026-05-17 15:22:59,159 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/tests_TC/Login/test_2buypakagepage_login.py
+2026-05-17 15:22:59,159 | ERROR | 📍 Line: 438
+2026-05-17 15:22:59,159 | ERROR | 📍 Error: TypeError: click_button_detail() missing 1 required positional argument: 'index'
+2026-05-17 15:23:37,877 | ERROR | [test_gift_pakage_tc68] ❌ FAILED (34.87s)
+2026-05-17 15:23:37,878 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:23:37,878 | ERROR | 📍 Line: 138
+2026-05-17 15:23:37,878 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:24:18,082 | ERROR | [test_share_pakage_tc69] ❌ FAILED (36.16s)
+2026-05-17 15:24:18,082 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:24:18,082 | ERROR | 📍 Line: 138
+2026-05-17 15:24:18,082 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:24:42,506 | ERROR | [test_click_utilities_tc70] ❌ FAILED (20.73s)
+2026-05-17 15:24:42,507 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:24:42,507 | ERROR | 📍 Line: 138
+2026-05-17 15:24:42,507 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:32:10,401 | INFO | [test_register_pakage_search_tc45] ✅ PASSED (38.81s)
+2026-05-17 15:34:49,450 | INFO | [test_unregister_pakage_search_tc46] ✅ PASSED (43.69s)
+2026-05-17 15:36:22,300 | INFO | [test_create_pakage_OTP_tc47] ✅ PASSED (13.22s)
+2026-05-17 15:38:38,861 | ERROR | [test_create_pakage_flex_OTP_tc48] ❌ FAILED (23.01s)
+2026-05-17 15:38:38,861 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 15:38:38,861 | ERROR | 📍 Line: 33
+2026-05-17 15:38:38,861 | ERROR | 📍 Error: Exception: Không tìm thấy text với resource-id: vms.com.vn.mymobifone:id/btRegister
+2026-05-17 15:39:51,908 | ERROR | [test_create_pakage_flex_OTP_tc48] ❌ FAILED (28.39s)
+2026-05-17 15:39:51,908 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 15:39:51,908 | ERROR | 📍 Line: 125
+2026-05-17 15:39:51,908 | ERROR | 📍 Error: selenium.common.exceptions.WebDriverException: Message: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Stacktrace:
+UnknownError: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+    at UIA2Proxy.command (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:354:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.doFindElementOrEls (/Users/user/node_modules/appium-uiautomator2-driver/lib/commands/find.js:40:5)
+    at doFind (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:47:17)
+    at wrappedCondFn (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:114:14)
+    at spin (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.ts:200:20)
+    at waitForCondition (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.ts:218:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:116:12)
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:70:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:41:02,606 | ERROR | [test_create_pakage_flex_OTP_tc48] ❌ FAILED (32.42s)
+2026-05-17 15:41:02,607 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:41:02,607 | ERROR | 📍 Line: 138
+2026-05-17 15:41:02,607 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:41:40,461 | INFO | [test_create_pakage_flex_OTP_tc48] ✅ PASSED (18.58s)
+2026-05-17 15:42:50,804 | ERROR | [test_create_pakage_roaming_tc52] ❌ FAILED (30.7s)
+2026-05-17 15:42:50,804 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:42:50,804 | ERROR | 📍 Line: 138
+2026-05-17 15:42:50,804 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:46:22,073 | INFO | [test_click_question_by_text_tc55] ✅ PASSED (38.87s)
+2026-05-17 15:51:50,648 | ERROR | [test_click_list_categories_tc58] ❌ FAILED (32.7s)
+2026-05-17 15:51:50,648 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 15:51:50,648 | ERROR | 📍 Line: 125
+2026-05-17 15:51:50,649 | ERROR | 📍 Error: selenium.common.exceptions.WebDriverException: Message: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Stacktrace:
+UnknownError: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+    at UIA2Proxy.command (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.ts:354:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.doFindElementOrEls (/Users/user/node_modules/appium-uiautomator2-driver/lib/commands/find.js:40:5)
+    at doFind (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:47:17)
+    at wrappedCondFn (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:114:14)
+    at spin (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.ts:200:20)
+    at waitForCondition (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.ts:218:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:116:12)
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:70:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:53:40,669 | INFO | [test_click_list_categories_tc58] ✅ PASSED (15.43s)
+2026-05-17 15:55:41,591 | ERROR | [test_click_sort_data_tc61] ❌ FAILED (34.15s)
+2026-05-17 15:55:41,591 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 15:55:41,591 | ERROR | 📍 Line: 138
+2026-05-17 15:55:41,591 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 15:56:07,577 | INFO | [test_click_sort_price_tc60] ✅ PASSED (14.16s)
+2026-05-17 15:56:35,512 | INFO | [test_click_sort_data_tc61] ✅ PASSED (16.0s)
+2026-05-17 16:00:18,334 | INFO | [test_register_pakage_tc64] ✅ PASSED (41.87s)
+2026-05-17 16:01:47,740 | ERROR | [test_register_pakage_tc65] ❌ FAILED (27.35s)
+2026-05-17 16:01:47,740 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 16:01:47,740 | ERROR | 📍 Line: 33
+2026-05-17 16:01:47,740 | ERROR | 📍 Error: Exception: Không tìm thấy text với resource-id: vms.com.vn.mymobifone:id/tvCancelPackage
+2026-05-17 16:02:49,292 | ERROR | [test_register_pakage_tc65] ❌ FAILED (49.15s)
+2026-05-17 16:02:49,292 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:02:49,292 | ERROR | 📍 Line: 138
+2026-05-17 16:02:49,292 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:04:49,643 | ERROR | [test_gift_pakage_tc68] ❌ FAILED (36.12s)
+2026-05-17 16:04:49,643 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:04:49,643 | ERROR | 📍 Line: 138
+2026-05-17 16:04:49,643 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:05:39,286 | ERROR | [test_share_pakage_tc69] ❌ FAILED (35.39s)
+2026-05-17 16:05:39,286 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:05:39,286 | ERROR | 📍 Line: 138
+2026-05-17 16:05:39,286 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:06:04,899 | ERROR | [test_share_pakage_tc69] ❌ FAILED (20.5s)
+2026-05-17 16:06:04,899 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:06:04,899 | ERROR | 📍 Line: 138
+2026-05-17 16:06:04,899 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:06:28,065 | INFO | [test_share_pakage_tc69] ✅ PASSED (17.78s)
+2026-05-17 16:08:45,322 | ERROR | [test_click_utilities_tc70] ❌ FAILED (29.9s)
+2026-05-17 16:08:45,322 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 16:08:45,322 | ERROR | 📍 Line: 42
+2026-05-17 16:08:45,322 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Thanh Toán
+2026-05-17 16:09:26,891 | ERROR | [test_click_utilities_tc70] ❌ FAILED (31.89s)
+2026-05-17 16:09:26,891 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/BuyPakagePage_page.py
+2026-05-17 16:09:26,891 | ERROR | 📍 Line: 42
+2026-05-17 16:09:26,891 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Thanh Toán
+2026-05-17 16:10:31,560 | INFO | [test_click_utilities_tc70] ✅ PASSED (41.35s)
+2026-05-17 16:11:16,892 | INFO | [test_search_package_tc71] ✅ PASSED (17.08s)
+2026-05-17 16:11:32,471 | INFO | [test_search_package_tc72] ✅ PASSED (11.41s)
+2026-05-17 16:12:17,786 | ERROR | [test_save_point_tc73] ❌ FAILED (41.27s)
+2026-05-17 16:12:17,786 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:12:17,786 | ERROR | 📍 Line: 138
+2026-05-17 16:12:17,786 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:12:45,868 | INFO | [test_point_history_tc74] ✅ PASSED (23.92s)
+2026-05-17 16:13:07,452 | INFO | [test_point_history_tc75] ✅ PASSED (17.51s)
+2026-05-17 16:13:31,154 | INFO | [test_save_point_tc76] ✅ PASSED (19.61s)
+2026-05-17 16:13:59,644 | INFO | [test_sell_point_tc77] ✅ PASSED (24.46s)
+2026-05-17 16:14:47,360 | ERROR | [test_tc78] ❌ FAILED (43.85s)
+2026-05-17 16:14:47,361 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:14:47,361 | ERROR | 📍 Line: 138
+2026-05-17 16:14:47,361 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:15:06,935 | INFO | [test_detail_voucher_tc79] ✅ PASSED (15.66s)
+2026-05-17 16:15:51,258 | INFO | [test_click_deals_point_out_tc80] ✅ PASSED (40.48s)
+2026-05-17 16:16:35,117 | INFO | [test_click_deals_point_in_tc81] ✅ PASSED (39.92s)
+2026-05-17 16:16:58,482 | ERROR | [test_click_deals_point_other_out_tc82] ❌ FAILED (19.3s)
+2026-05-17 16:16:58,482 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 16:16:58,482 | ERROR | 📍 Line: 125
+2026-05-17 16:16:58,482 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:17:20,482 | ERROR | [test_click_deals_point_other_in_tc83] ❌ FAILED (18.03s)
+2026-05-17 16:17:20,483 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 16:17:20,483 | ERROR | 📍 Line: 125
+2026-05-17 16:17:20,483 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:19:08,087 | ERROR | [test_save_point_tc73] ❌ FAILED (40.03s)
+2026-05-17 16:19:08,087 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:19:08,087 | ERROR | 📍 Line: 138
+2026-05-17 16:19:08,087 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:19:33,503 | INFO | [test_save_point_tc73] ✅ PASSED (19.95s)
+2026-05-17 16:20:44,346 | ERROR | [test_tc78] ❌ FAILED (44.11s)
+2026-05-17 16:20:44,346 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:20:44,346 | ERROR | 📍 Line: 138
+2026-05-17 16:20:44,346 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:23:39,165 | INFO | [test_click_deals_point_other_out_tc82] ✅ PASSED (26.45s)
+2026-05-17 16:24:09,764 | INFO | [test_click_deals_point_other_in_tc83] ✅ PASSED (26.45s)
+2026-05-17 16:24:36,979 | INFO | [test_search_package_D5_tc84] ✅ PASSED (15.57s)
+2026-05-17 16:24:55,329 | INFO | [test_search_package_DDDDDDDDD_tc85] ✅ PASSED (14.38s)
+2026-05-17 16:25:15,185 | INFO | [test_search_package_DV_tc86] ✅ PASSED (15.85s)
+2026-05-17 16:25:42,237 | INFO | [test_scroll_banner_tc87] ✅ PASSED (22.97s)
+2026-05-17 16:25:58,303 | INFO | [test_click_banner_tc88] ✅ PASSED (12.33s)
+2026-05-17 16:26:23,391 | INFO | [test_scroll_services_tc89] ✅ PASSED (20.99s)
+2026-05-17 16:27:02,709 | ERROR | [test_register_services_tc90] ❌ FAILED (35.06s)
+2026-05-17 16:27:02,710 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:27:02,710 | ERROR | 📍 Line: 138
+2026-05-17 16:27:02,710 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message:
+2026-05-17 16:27:28,464 | ERROR | [test_unregister_services_tc91] ❌ FAILED (21.82s)
+2026-05-17 16:27:28,464 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/ServicesPage_page.py
+2026-05-17 16:27:28,464 | ERROR | 📍 Line: 156
+2026-05-17 16:27:28,464 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Hủy
+2026-05-17 16:27:56,571 | INFO | [test_click_services_tc92] ✅ PASSED (24.08s)
+2026-05-17 16:37:18,964 | ERROR | [test_click_services_tc92_1] ❌ FAILED (57.12s)
+2026-05-17 16:37:18,965 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/ServicesPage_page.py
+2026-05-17 16:37:18,965 | ERROR | 📍 Line: 91
+2026-05-17 16:37:18,965 | ERROR | 📍 Error: Exception: ❌ Không tìm thấy: Học Mãi
+2026-05-17 16:38:04,086 | ERROR | [test_click_services_tc92_1] ❌ FAILED (18.55s)
+2026-05-17 16:38:04,086 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/appium/webdriver/errorhandler.py
+2026-05-17 16:38:04,086 | ERROR | 📍 Line: 125
+2026-05-17 16:38:04,086 | ERROR | 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:39:31,656 | ERROR | [test_click_services_tc92_1] ❌ FAILED (49.54s)
+2026-05-17 16:39:31,656 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:39:31,656 | ERROR | 📍 Line: 138
+2026-05-17 16:39:31,656 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:42:31,231 | INFO | [test_click_services_tc92_1] ✅ PASSED (29.33s)
+2026-05-17 16:43:14,269 | INFO | [test_click_services_tc92_2] ✅ PASSED (28.63s)
+2026-05-17 16:45:32,240 | ERROR | [test_click_services_tc92_2] ❌ FAILED (15.2s)
+2026-05-17 16:45:32,240 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/tests_TC/Login/test_4servicespage_login.py
+2026-05-17 16:45:32,240 | ERROR | 📍 Line: 138
+2026-05-17 16:45:32,240 | ERROR | 📍 Error: TypeError: click_by_text() takes 2 positional arguments but 3 were given
+2026-05-17 16:47:02,659 | ERROR | [test_click_services_tc92_2] ❌ FAILED (16.61s)
+2026-05-17 16:47:02,659 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/tests_TC/Login/test_4servicespage_login.py
+2026-05-17 16:47:02,660 | ERROR | 📍 Line: 138
+2026-05-17 16:47:02,660 | ERROR | 📍 Error: TypeError: click_by_text() takes 2 positional arguments but 3 were given
+2026-05-17 16:51:04,512 | ERROR | [test_click_services_tc92_1] ❌ FAILED (16.19s)
+2026-05-17 16:51:04,512 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/tests_TC/Login/test_4servicespage_login.py
+2026-05-17 16:51:04,512 | ERROR | 📍 Line: 116
+2026-05-17 16:51:04,512 | ERROR | 📍 Error: TypeError: click_by_text() missing 1 required positional argument: 'index'
+2026-05-17 16:52:09,083 | INFO | [test_click_services_tc92_1] ✅ PASSED (28.75s)
+2026-05-17 16:53:18,443 | ERROR | [test_click_services_tc92_2] ❌ FAILED (39.69s)
+2026-05-17 16:53:18,443 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:53:18,443 | ERROR | 📍 Line: 138
+2026-05-17 16:53:18,443 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:54:07,453 | INFO | [test_click_services_tc92_2] ✅ PASSED (29.06s)
+2026-05-17 16:56:31,278 | ERROR | [test_check_tab_introduce_tc93] ❌ FAILED (11.82s)
+2026-05-17 16:56:31,278 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/KndlPage_page.py
+2026-05-17 16:56:31,278 | ERROR | 📍 Line: 29
+2026-05-17 16:56:31,278 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Du lịch - Khách sạn
+2026-05-17 16:57:03,640 | ERROR | [test_change_point_tc94] ❌ FAILED (28.19s)
+2026-05-17 16:57:03,640 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:57:03,640 | ERROR | 📍 Line: 138
+2026-05-17 16:57:03,640 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:57:26,107 | ERROR | [test_change_combo_pakage_tc95] ❌ FAILED (18.36s)
+2026-05-17 16:57:26,108 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/KndlPage_page.py
+2026-05-17 16:57:26,109 | ERROR | 📍 Line: 29
+2026-05-17 16:57:26,109 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Đổi gói combo
+2026-05-17 16:57:46,311 | ERROR | [test_change_voice_pakage_tc96] ❌ FAILED (16.45s)
+2026-05-17 16:57:46,312 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/KndlPage_page.py
+2026-05-17 16:57:46,312 | ERROR | 📍 Line: 29
+2026-05-17 16:57:46,312 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Gói thoại
+2026-05-17 16:58:09,529 | ERROR | [test_change_gift_pakage_tc97] ❌ FAILED (19.38s)
+2026-05-17 16:58:09,530 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/KndlPage_page.py
+2026-05-17 16:58:09,531 | ERROR | 📍 Line: 29
+2026-05-17 16:58:09,531 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Gói thoại
+2026-05-17 16:58:51,155 | ERROR | [test_change_data_code_tc98] ❌ FAILED (37.57s)
+2026-05-17 16:58:51,156 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:58:51,156 | ERROR | 📍 Line: 138
+2026-05-17 16:58:51,156 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:59:34,243 | ERROR | [test_change_VETC_tc99] ❌ FAILED (39.08s)
+2026-05-17 16:59:34,245 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 16:59:34,245 | ERROR | 📍 Line: 138
+2026-05-17 16:59:34,245 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 16:59:51,848 | INFO | [test_click_button_reload_tc100] ✅ PASSED (13.46s)
+2026-05-17 17:00:09,171 | INFO | [test_button_seemore_tc101] ✅ PASSED (13.34s)
+2026-05-17 17:00:32,703 | INFO | [test_button_register_tc102] ✅ PASSED (19.67s)
+2026-05-17 17:00:54,372 | INFO | [test_swipe_banner_tc103] ✅ PASSED (17.93s)
+2026-05-17 17:01:08,552 | INFO | [test_check_history_tc104] ✅ PASSED (10.47s)
+2026-05-17 17:01:37,208 | ERROR | [test_list_deal_kndl_tc105] ❌ FAILED (24.7s)
+2026-05-17 17:01:37,210 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/KndlPage_page.py
+2026-05-17 17:01:37,210 | ERROR | 📍 Line: 29
+2026-05-17 17:01:37,210 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: SÂN BAY CÔN ĐẢO
+2026-05-17 17:05:00,735 | ERROR | [test_check_tab_introduce_tc93] ❌ FAILED (28.77s)
+2026-05-17 17:05:00,735 | ERROR | 📍 File: /Users/user/Documents/My Mobifone - Auto/Production/android/pages/KndlPage_page.py
+2026-05-17 17:05:00,735 | ERROR | 📍 Line: 29
+2026-05-17 17:05:00,735 | ERROR | 📍 Error: Exception: Không tìm thấy element chứa text: Nhận ưu đãi
+2026-05-17 17:06:38,469 | INFO | [test_check_tab_introduce_tc93] ✅ PASSED (22.3s)
+2026-05-17 17:10:01,738 | INFO | [test_check_tab_introduce_tc93] ✅ PASSED (20.43s)
+2026-05-17 17:10:51,493 | INFO | [test_list_deal_kndl_tc105] ✅ PASSED (24.41s)
+2026-05-17 17:12:08,776 | ERROR | [test_click_my_services_tc106] ❌ FAILED (50.14s)
+2026-05-17 17:12:08,776 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 17:12:08,776 | ERROR | 📍 Line: 138
+2026-05-17 17:12:08,776 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 17:12:25,231 | INFO | [test_click_button_refesh_tc107] ✅ PASSED (13.01s)
+2026-05-17 17:12:42,028 | INFO | [test_click_button_detail_tc108] ✅ PASSED (13.06s)
+2026-05-17 17:13:12,355 | INFO | [test_link_google_tc109] ✅ PASSED (25.32s)
+2026-05-17 17:13:41,564 | INFO | [test_click_button_delete_account_tc110] ✅ PASSED (25.49s)
+2026-05-17 17:13:56,227 | INFO | [test_click_button_delete_account_tc111] ✅ PASSED (10.67s)
+2026-05-17 17:14:22,619 | INFO | [test_check_tab_invoice_tc112] ✅ PASSED (22.37s)
+2026-05-17 17:14:43,007 | INFO | [test_check_tab_invoice_tc113] ✅ PASSED (16.62s)
+2026-05-17 17:15:17,932 | ERROR | [test_update_infor_tc114] ❌ FAILED (30.93s)
+2026-05-17 17:15:17,932 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 17:15:17,932 | ERROR | 📍 Line: 138
+2026-05-17 17:15:17,932 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 17:15:33,337 | INFO | [test_limit_cuoc_tc115] ✅ PASSED (11.27s)
+2026-05-17 17:15:48,481 | INFO | [test_ckeck_multi_sim_tc116] ✅ PASSED (11.18s)
+2026-05-17 17:16:23,390 | ERROR | [test_change_esim_tc117] ❌ FAILED (30.98s)
+2026-05-17 17:16:23,390 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 17:16:23,390 | ERROR | 📍 Line: 138
+2026-05-17 17:16:23,390 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 17:16:59,331 | ERROR | [test_check_autopay_tc118] ❌ FAILED (31.96s)
+2026-05-17 17:16:59,332 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 17:16:59,332 | ERROR | 📍 Line: 138
+2026-05-17 17:16:59,332 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 17:17:18,759 | INFO | [test_check_setting_tc119] ✅ PASSED (15.58s)
+2026-05-17 17:17:58,092 | INFO | [test_check_setting_tc119_1] ✅ PASSED (35.45s)
+2026-05-17 17:18:14,523 | INFO | [test_switch_nofti_tc120] ✅ PASSED (12.46s)
+2026-05-17 17:18:48,983 | INFO | [test_switch_smart_otp_tc121] ✅ PASSED (30.65s)
+2026-05-17 17:19:08,922 | INFO | [test_deals_and_gifts_tc122] ✅ PASSED (16.08s)
+2026-05-17 17:19:51,551 | ERROR | [test_block_call_tc123] ❌ FAILED (38.61s)
+2026-05-17 17:19:51,551 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 17:19:51,552 | ERROR | 📍 Line: 138
+2026-05-17 17:19:51,552 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 17:20:06,114 | INFO | [test_block_call_tc124] ✅ PASSED (10.61s)
+2026-05-17 17:20:25,560 | INFO | [test_history_pakage_tc125] ✅ PASSED (15.45s)
+2026-05-17 17:20:56,342 | ERROR | [test_history_pakage_tc126] ❌ FAILED (26.86s)
+2026-05-17 17:20:56,344 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 17:20:56,344 | ERROR | 📍 Line: 138
+2026-05-17 17:20:56,344 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 17:26:20,172 | INFO | [test_update_infor_tc114] ✅ PASSED (11.56s)
+2026-05-17 17:26:41,765 | INFO | [test_change_esim_tc117] ✅ PASSED (14.31s)
+2026-05-17 17:27:27,903 | ERROR | [test_block_call_tc123] ❌ FAILED (34.19s)
+2026-05-17 17:27:27,903 | ERROR | 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+2026-05-17 17:27:27,903 | ERROR | 📍 Line: 138
+2026-05-17 17:27:27,903 | ERROR | 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2026-05-17 17:27:58,927 | INFO | [test_block_call_tc123] ✅ PASSED (14.86s)

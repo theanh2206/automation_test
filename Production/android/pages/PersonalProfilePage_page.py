@@ -17,6 +17,15 @@ class PersonalProfile(BasePage):
     def click_my_services(self, index):
         locator = (By.XPATH, f'(//android.widget.ImageView[@resource-id="vms.com.vn.mymobifone:id/ivIcon"])[{index}]')
         self.click(locator)
+    def click_text_by_resource_id(self, resource_id):
+        try:
+            xpath = f'//android.widget.TextView[@resource-id="{resource_id}"]'
+            element = WebDriverWait(self.driver, 10).until(
+                lambda d: d.find_element(AppiumBy.XPATH, xpath)
+        )
+            element.click()
+        except Exception as e:
+            raise Exception(f"Không tìm thấy text với resource-id: {resource_id}") from e
     #Click button refesh
     def click_button_refesh(self):
         self.click(self.locators.BUTTON_REFESH)

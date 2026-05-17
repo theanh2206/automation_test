@@ -89,6 +89,13 @@ class ServicesPage(BasePage):
             time.sleep(1)  # cho UI load
 
         raise Exception(f"❌ Không tìm thấy: {text}")
+    #--Hàm scroll dọc
+    def scroll_to_element1(self, text):
+        return self.driver.find_element(
+        AppiumBy.ANDROID_UIAUTOMATOR,
+        f'new UiScrollable(new UiSelector().scrollable(true))'
+        f'.scrollIntoView(new UiSelector().textContains("{text}"))'
+    )
     #Click banner
     def click_banner(self):
         self.click(self.locators.BANNER)
@@ -144,9 +151,9 @@ class ServicesPage(BasePage):
     #CLick button đăng ký dịch vụ
     def click_button_register_services(self):
         self.click(self.locators.MOBIGAMES_REGISTER1)
-    def click_by_text(self, text):
+    def click_by_text(self, text, index=1):
         try:
-            xpath = f'//android.widget.TextView[contains(@text,"{text}")]'
+            xpath = f'(//android.widget.TextView[contains(@text,"{text}")])[{index}]'
         
             element = WebDriverWait(self.driver, 10).until(
                 lambda d: d.find_element(AppiumBy.XPATH, xpath)

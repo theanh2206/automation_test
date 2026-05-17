@@ -62,7 +62,7 @@ def test_link_google_tc109(driver):
     personalprofile.click_by_text("Liên kết với tài khoản Google")
     personalprofile.wait_for_result("Xác thực thông tin")
     assert personalprofile.is_result_displayed("Xác thực thông tin")
-#TC110. Liên kết với tài khoản google
+#TC110. Click button Xoá tài khoản
 @pytest.mark.tc110
 def test_click_button_delete_account_tc110(driver):
     personalprofile = PersonalProfile(driver)
@@ -117,10 +117,8 @@ def test_update_infor_tc114(driver):
     personalprofile = PersonalProfile(driver)
     personalprofile.click_avata()
     personalprofile.click_my_services(3)
-    personalprofile.click_button_update()
-    personalprofile.input_otp("888888")
-    personalprofile.wait_for_result("Chữ ký")
-    assert personalprofile.is_result_displayed("Chữ ký")
+    personalprofile.wait_for_result("Cập nhật thông tin")
+    assert personalprofile.is_result_displayed("Cập nhật thông tin")
 
 #TC115. Kiểm tra hạn mức cước
 @pytest.mark.tc115
@@ -145,8 +143,9 @@ def test_change_esim_tc117(driver):
     personalprofile = PersonalProfile(driver)
     personalprofile.click_avata()
     personalprofile.click_my_services(6)
-    personalprofile.wait_for_result("Thiết bị của bạn không hỗ trợ eSIM")
-    assert personalprofile.is_result_displayed("Thiết bị của bạn không hỗ trợ eSIM")
+    personalprofile.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvEsimConversion")
+    personalprofile.wait_for_result("Xác thực thông tin")
+    assert personalprofile.is_result_displayed("Xác thực thông tin")
 #TC118. Kiểm tra auto-pay
 @pytest.mark.tc118
 def test_check_autopay_tc118(driver):
@@ -243,8 +242,6 @@ def test_block_call_tc123(driver):
     personalprofile.click_my_services(12)
     personalprofile.click_switch_spam()
     personalprofile.click_switch_block()
-    personalprofile.click_my_mobifone()
-    personalprofile.click_default()
     personalprofile.wait_for_result("Chặn cuộc gọi rác")
     assert personalprofile.is_result_displayed("Chặn cuộc gọi rác")
     
