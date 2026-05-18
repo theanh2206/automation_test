@@ -1,0 +1,23 @@
+[2026-05-18 08:33:10] [INFO] [test_search_package_tc02] ✅ PASSED (13.94s)
+[2026-05-18 08:34:01] [INFO] [test_search_package_DV_tc03] ✅ PASSED (14.39s)
+[2026-05-18 08:35:35] [ERROR] [test_click_avata_tc04] ❌ FAILED (29.76s)
+[2026-05-18 08:35:35] [ERROR] 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+[2026-05-18 08:35:35] [ERROR] 📍 Line: 138
+[2026-05-18 08:35:35] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+[2026-05-18 09:09:37] [INFO] [test_click_avata_tc04] ✅ PASSED (10.39s)
+[2026-05-18 09:14:34] [ERROR] [test_click_button_login_tc130] ❌ FAILED (20.81s)
+[2026-05-18 09:14:34] [ERROR] 📍 File: /Users/user/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/support/wait.py
+[2026-05-18 09:14:34] [ERROR] 📍 Line: 138
+[2026-05-18 09:14:34] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/user/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/user/.nvm/versions/node/v20.20.2/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)

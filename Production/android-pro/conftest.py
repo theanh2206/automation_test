@@ -1,6 +1,7 @@
 import pytest
 import logging
 import os
+from datetime import datetime
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from selenium.webdriver.support.ui import WebDriverWait
@@ -18,14 +19,19 @@ LOGGER = None
 def setup_global_logger():
     global LOGGER
     os.makedirs("logs", exist_ok=True)
+    
+    today = datetime.now().strftime("%Y-%m-%d")
+    LOG_FILE = f"logs/{today}.log"
     LOGGER = logging.getLogger("test_execution")
     LOGGER.setLevel(logging.INFO)
     # clear handler cũ nếu có
     if LOGGER.hasHandlers():
         LOGGER.handlers.clear()
+        
     file_handler = logging.FileHandler(LOG_FILE, encoding="utf-8")
     formatter = logging.Formatter(
-        "%(asctime)s | %(levelname)s | %(message)s"
+        "[%(asctime)s] [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S"
     )
     file_handler.setFormatter(formatter)
     LOGGER.addHandler(file_handler)

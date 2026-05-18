@@ -1,0 +1,6 @@
+test_search_package_D5_tc01,tests_TC/Login/test_1homepage_login.py::test_search_package_D5_tc01,call,PASSED,14.79,R5CXA0VCY1N,2026-05-18 08:31:05
+test_search_package_tc02,tests_TC/Login/test_1homepage_login.py::test_search_package_tc02,call,PASSED,13.94,R5CXA0VCY1N,2026-05-18 08:33:10
+test_search_package_DV_tc03,tests_TC/Login/test_1homepage_login.py::test_search_package_DV_tc03,call,PASSED,14.39,R5CXA0VCY1N,2026-05-18 08:34:01
+test_click_avata_tc04,tests_TC/Login/test_1homepage_login.py::test_click_avata_tc04,call,FAILED,29.76,R5CXA0VCY1N,2026-05-18 08:35:35
+test_click_avata_tc04,tests_TC/Login/test_1homepage_login.py::test_click_avata_tc04,call,PASSED,10.39,R5CXA0VCY1N,2026-05-18 09:09:37
+test_click_button_login_tc130,tests_TC/No_Login/test_1homepage_no_login.py::test_click_button_login_tc130,call,FAILED,20.81,R5CXA0VCY1N,2026-05-18 09:14:34
