@@ -1,0 +1,10 @@
+test_click_button_login_tc130,tests_TC/No_Login/test_1homepage_no_login.py::test_click_button_login_tc130,call,PASSED,2.6,auto,2026-05-16 17:40:00
+test_click_sidebar_tc131,tests_TC/No_Login/test_1homepage_no_login.py::test_click_sidebar_tc131,call,PASSED,2.94,auto,2026-05-16 17:40:06
+test_click_swipe_language_tc132,tests_TC/No_Login/test_1homepage_no_login.py::test_click_swipe_language_tc132,call,PASSED,23.86,auto,2026-05-16 17:40:32
+test_click_icon_utilities_tc133,tests_TC/No_Login/test_1homepage_no_login.py::test_click_icon_utilities_tc133,call,PASSED,23.02,auto,2026-05-16 17:40:58
+test_click_icon_utilities_tc134,tests_TC/No_Login/test_1homepage_no_login.py::test_click_icon_utilities_tc134,call,PASSED,17.71,auto,2026-05-16 17:41:19
+test_click_avata_contact_tc135,tests_TC/No_Login/test_1homepage_no_login.py::test_click_avata_contact_tc135,call,PASSED,17.14,auto,2026-05-16 17:41:39
+test_click_avata_contact_tc136,tests_TC/No_Login/test_1homepage_no_login.py::test_click_avata_contact_tc136,call,PASSED,6.79,auto,2026-05-16 17:41:49
+test_click_customer_support_tc137,tests_TC/No_Login/test_1homepage_no_login.py::test_click_customer_support_tc137,call,PASSED,18.92,auto,2026-05-16 17:42:11
+test_search_package_tc01,tests_TC/Login/test_1homepage_login.py::test_search_package_tc01,call,FAILED,20.23,auto,2026-05-16 17:50:22
+test_click_button_login_tc130,tests_TC/No_Login/test_1homepage_no_login.py::test_click_button_login_tc130,call,PASSED,2.88,auto,2026-05-18 09:24:44
