@@ -83,9 +83,9 @@ class DealsPage(BasePage):
     def click_list_point_history(self, index):
         locator = (By.XPATH, f'//androidx.recyclerview.widget.RecyclerView[@resource-id="vms.com.vn.mymobifone:id/rvListHistoryModel"]/android.widget.LinearLayout[{index}]')
         self.click(locator)
-    def click_by_text(self, text):
+    def click_by_text(self, text, index=1):
         try:
-            xpath = f'//android.widget.TextView[contains(@text,"{text}")]'
+            xpath = f'(//android.widget.TextView[contains(@text,"{text}")])[{index}]'
         
             element = WebDriverWait(self.driver, 10).until(
                 lambda d: d.find_element(AppiumBy.XPATH, xpath)

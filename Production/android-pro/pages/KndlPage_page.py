@@ -17,9 +17,9 @@ class KndlPage(BasePage):
         locator = (By.XPATH, f'(//android.widget.ImageView[@resource-id="vms.com.vn.mymobifone:id/ivThumb"])[{index}]')
         self.click(locator)
     #Click guide by text
-    def click_by_text(self, text):
+    def click_by_text(self, text, index=1):
         try:
-            xpath = f'//android.widget.TextView[contains(@text,"{text}")]'
+            xpath = f'(//android.widget.TextView[contains(@text,"{text}")])[{index}]'
         
             element = WebDriverWait(self.driver, 10).until(
                 lambda d: d.find_element(AppiumBy.XPATH, xpath)

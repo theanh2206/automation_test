@@ -51,7 +51,7 @@ def test_click_icon_utilities_tc133(driver):
 @pytest.mark.tc134
 def test_click_icon_utilities_tc134(driver):
     homepage = HomePage(driver)
-    homepage.click_by_text("Tất cả")
+    homepage.click_by_text("Xem tất cả")
     homepage.click_by_text("Thanh Toán")
     homepage.press_back()
     homepage.click_by_text("Kích hoạt sim")
@@ -95,8 +95,7 @@ def test_click_avata_contact_tc136(driver):
     homepage = HomePage(driver)
     homepage.click_by_text("Chi tiết")
     homepage.press_back()
-    homepage.click_by_text("Xem tất cả")
-    homepage.press_back()
+    homepage.click_by_text("Xem tất cả", 2)
     homepage.press_back()
     homepage.wait_for_result("Gói cước hấp dẫn")
     assert homepage.is_result_displayed("Gói cước hấp dẫn")

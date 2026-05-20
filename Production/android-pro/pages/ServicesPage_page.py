@@ -171,7 +171,12 @@ class ServicesPage(BasePage):
 
     #         ===== VERIFY =====
     def wait_for_result(self, keyword):
-        self.wait_for_text(keyword)
+        try:
+            self.wait_for_text(keyword)
+        except Exception as e:
+            raise Exception(
+            f"❌ Không tìm thấy text: {keyword}"
+        ) from e
 
     def is_result_displayed(self, keyword):
         return self.is_text_displayed(keyword)

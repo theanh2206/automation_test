@@ -434,7 +434,6 @@ def test_click_banner_tc39_3(driver):
     homepage.click_banner()
     homepage.wait_for_result("Hỗ trợ khách hàng")
     assert homepage.is_result_displayed("Hỗ trợ khách hàng")
-# @pytest.mark.tc39_4   
 @pytest.mark.tc39_4
 def test_click_banner_tc39_4(driver):
     homepage = HomePage(driver)

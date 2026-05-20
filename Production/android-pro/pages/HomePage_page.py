@@ -226,7 +226,7 @@ class HomePage(BasePage):
         self.click(locator)
     def click_by_text(self, text, index=1):
         try:
-            xpath = f'//android.widget.TextView[contains(@text,"{text}")][{index}]'
+            xpath = f'(//android.widget.TextView[contains(@text,"{text}")])[{index}]'
             element = WebDriverWait(self.driver, 10).until(
                 lambda d: d.find_element(AppiumBy.XPATH, xpath)
             )

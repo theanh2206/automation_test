@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from utils.csv_reporter import CSVReporter
 
 # ========= CONFIG ANDROID =========
-DEVICE_UDID = "R5CXA0VCY1N"
+DEVICE_UDID = "R5CX34ETEDM"
 APP_PACKAGE = "vms.com.vn.mymobifone"
 APP_ACTIVITY = "vms.com.vn.mymobi.activities.SplashScreenActivity"
 APPIUM_URL = "http://127.0.0.1:4723"

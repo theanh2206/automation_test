@@ -33,7 +33,7 @@ class BuyPakagePage(BasePage):
             raise Exception(f"Không tìm thấy text với resource-id: {resource_id}") from e
     def click_by_text(self, text, index=1):
         try:
-            xpath = f'//android.widget.TextView[contains(@text,"{text}")][{index}]'
+            xpath = f'(//android.widget.TextView[contains(@text,"{text}")])[{index}]'
             element = WebDriverWait(self.driver, 10).until(
                 lambda d: d.find_element(AppiumBy.XPATH, xpath)
             )
