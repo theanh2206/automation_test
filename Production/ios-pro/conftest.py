@@ -45,6 +45,7 @@ def driver():
     # ===== BASIC =====
     options.platform_name = "iOS"
     options.device_name = "iPhone 13"
+    options.platform_version = "18.6"
     options.udid = DEVICE_UDID
     options.automation_name = "XCUITest"
     # ===== APP =====

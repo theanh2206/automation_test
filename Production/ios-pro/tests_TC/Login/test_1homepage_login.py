@@ -20,9 +20,9 @@ def test_search_package_tc02(driver):
 @pytest.mark.tc03
 def test_search_package_tc03(driver):
     homepage = HomePage(driver)
-    homepage.search_package("MobiGames")
-    homepage.wait_for_result("MobiGames")
-    assert homepage.is_result_displayed("MobiGames")
+    homepage.search_package("Funring")
+    homepage.wait_for_result("Funring")
+    assert homepage.is_result_displayed("Funring")
 #TC04 - Click Avata
 @pytest.mark.tc04
 def test_click_avata_tc04(driver):
@@ -148,7 +148,7 @@ def test_register_D5_tc14(driver):
     homepage.click_button_by_text("Đăng ký ngay")
     # homepage.click_button_by_text("Tiếp tục")
     homepage.click_by_text("Xác nhận thanh toán")
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Đăng ký gói cước thành công")
     assert homepage.is_result_displayed("Đăng ký gói cước thành công")   
 #TC15 - Huỷ gói cước thành công
@@ -160,35 +160,35 @@ def test_unregister_tc15(driver):
     homepage.click_by_text("D5")
     homepage.click_button_by_text("Huỷ")
     homepage.click_button_by_text("Đồng ý")
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Huỷ thành công")
     assert homepage.is_result_displayed("Huỷ thành công")
 #TC16 - Đăng ký gói dịch vụ
 @pytest.mark.tc16
-def test_mobigames_register_tc16(driver):
+def test_services_register_tc16(driver):
     homepage = HomePage(driver)
-    homepage.search_package("MobiGames")
-    homepage.wait_for_result("MobiGames")
-    homepage.click_by_text("MobiGames", 2)
-    homepage.click_button_by_text("btn signed", 3)
+    homepage.search_package("Funring")
+    homepage.wait_for_result("Funring")
+    homepage.click_by_text("Funring")
+    homepage.click_button_by_text("btn signed")
     homepage.click_button_by_text("Đăng ký")
-    # homepage.input_otp("000000")
-    # homepage.wait_for_result("Đăng ký dịch vụ")
-    assert homepage.is_result_displayed("Thuê bao không thuộc")
+    homepage.input_otp("888888")
+    homepage.wait_for_result("Đăng ký dịch vụ")
+    assert homepage.is_result_displayed("Yêu cầu thành công")
     
 #TC17 - Huỷ đăng ký gói dịch vụ
 @pytest.mark.tc17
-def test_mobigames_unregister_tc17(driver):
+def test_services_unregister_tc17(driver):
     homepage = HomePage(driver)
-    homepage.search_package("MobiGames")
-    homepage.wait_for_result("MobiGames")
+    homepage.search_package("Funring")
+    homepage.wait_for_result("Funring")
     homepage.click_button_by_text("Done")
-    homepage.click_by_text1("MobiGames", 2)
+    homepage.click_by_text("Funring")
     homepage.click_button_by_text("btn huy", 1)
     homepage.click_button_by_text("Đồng ý")
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Huỷ dịch vụ")
-    assert homepage.is_result_displayed("Gửi yêu cầu huỷ thành công")
+    assert homepage.is_result_displayed("Gửi yêu cầu hủy thành công")
 #=====GÓI CƯỚC CỦA BẠN=========()
 #TC18 - Huỷ gói cước
 @pytest.mark.tc18
@@ -199,7 +199,7 @@ def test_unregister_my_pakage_tc18(driver):
     homepage.click_by_text("Data")   
     homepage.click_button_by_text("Huỷ gói cước")   
     homepage.click_button_by_text("Đồng ý")   
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Huỷ gói cước thành công")
     assert homepage.is_result_displayed("Huỷ gói cước thành công")
 #TC19 - Gia hạn gói cước
@@ -212,7 +212,7 @@ def test_extend_pakage_tc19(driver):
     homepage.click_by_text("Data Roaming")   
     homepage.click_button_by_text("Gia hạn gói cước", 2)   
     homepage.click_button_by_text("Đồng ý")
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Gia hạn gói cước thành công")
     assert homepage.is_result_displayed("Gia hạn gói cước thành công")
 #TC20 - Huỷ gia hạn tự động gói cước
@@ -224,7 +224,7 @@ def test_unextend_pakage_tc20(driver):
     homepage.click_by_text("Data")
     homepage.click_button_by_text("Hủy tự động gia hạn")
     homepage.click_button_by_text("Xác nhận")
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Huỷ gia hạn gói cước thành công")
     assert homepage.is_result_displayed("Huỷ gia hạn gói cước thành công")
     
@@ -238,7 +238,7 @@ def test_reschedule_tc21(driver):
     homepage.click_button_reschedule()
     homepage.et_time("22062026")
     homepage.click_button_submit()
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Đổi lịch hẹn thành công")
     assert homepage.is_result_displayed("Đổi lịch hẹn thành công")
 #TC22 - Huỷ lịch hẹn roaming
@@ -249,7 +249,7 @@ def test_cancel_shedule_tc22(driver):
     homepage.scroll_to_element2("Đổi lịch hẹn")
     homepage.click_button_cancel_schedule()
     homepage.click_button_submit()
-    homepage.input_otp("000000")
+    homepage.input_otp("888888")
     homepage.wait_for_result("Huỷ lịch hẹn thành công")
     assert homepage.is_result_displayed("Huỷ lịch hẹn thành công")
 #TC23 - Click Mua gói

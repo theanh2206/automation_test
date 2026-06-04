@@ -22,10 +22,10 @@ def test_check_tab_introduce_tc158(driver):
     kndlpage.click_by_text("Thẻ hội viên")
     kndlpage.wait_for_result("Giới thiệu")
     assert kndlpage.is_result_displayed("Giới thiệu")
-#TC159. Click button đổi quà
+#TC159. Click button đổi điểm
 @pytest.mark.tc159
 def test_click_button_exchange_tc159(driver):
-    kndlpage = KndlPage(driver)
+    kndlpage = KndlPage(driver) 
     kndlpage.click_icon_kndl()
     kndlpage.click_by_text("Đổi điểm")
     kndlpage.wait_for_result("Đăng nhập")

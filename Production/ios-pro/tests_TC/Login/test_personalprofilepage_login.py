@@ -25,7 +25,7 @@ def test_click_my_services_tc106(driver):
     personalprofile.wait_for_result("Chuyển đổi eSIM")
     personalprofile.click_button_by_text("icBack")
     personalprofile.click_by_image("ic_autopoay")
-    personalprofile.wait_for_result("thanh toán")
+    personalprofile.wait_for_result("AutoPay")
     personalprofile.click_button_by_text("icBack")
     personalprofile.click_by_image("ic_cd")
     personalprofile.wait_for_result("Cài đặt")
@@ -228,7 +228,7 @@ def test_switch_smart_otp_tc121(driver):
     personalprofile.input_smart_otp("0000")
     personalprofile.click_button_by_text("Done")
     personalprofile.click_button_by_text("Xác nhận")
-    personalprofile.input_otp("000000")
+    personalprofile.input_otp("888888")
     personalprofile.wait_for_result("Smart OTP")
     assert personalprofile.is_result_displayed("Smart OTP")
 #TC122. Kiểm tra khuyến mãi và quà tặng

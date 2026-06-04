@@ -25,9 +25,9 @@ def test_search_package_tc41(driver):
 def test_search_services_tc43(driver):
     buypakage = BuyPakagePage(driver)
     buypakage.click_buy_pakage()
-    buypakage.search_package("MobiGames")
-    buypakage.wait_for_result("MobiGames")
-    assert buypakage.is_result_displayed("MobiGames")
+    buypakage.search_package("Funring")
+    buypakage.wait_for_result("Funring")
+    assert buypakage.is_result_displayed("Funring")
 #TC44. Tìm kiếm gói cước không tồn tại trong db
 @pytest.mark.tc44
 def test_search_services_tc44(driver):
@@ -47,7 +47,7 @@ def test_register_pakage_search_tc45(driver):
     buypakage.click_button_by_text("Đăng ký ngay")
     # buypakage.click_button_by_text("Tiếp tục")
     buypakage.click_button_by_text("Xác nhận thanh toán")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Đăng ký gói cước thành công")
     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
 #TC46. Huỷ gói cước ở thanh tìm kiếm
@@ -60,7 +60,7 @@ def test_unregister_pakage_search_tc46(driver):
     buypakage.click_by_text("D5")
     buypakage.click_button_by_text("Huỷ")
     buypakage.click_button_by_text("Đồng ý")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Huỷ thành công")
     assert buypakage.is_result_displayed("Huỷ thành công")
 #TC47. Tạo gói cước cá nhân
@@ -198,7 +198,7 @@ def test_create_pakage_roaming_tc52(driver):
     buypakage.click_button_by_text("Đăng ký")
     buypakage.click_button_by_text("Đăng ký ngay")
     buypakage.click_button_by_text("Xác nhận thanh toán")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Đăng ký gói cước thành công")
     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
 #2. Đăng ký gói xung đột
@@ -212,7 +212,7 @@ def test_create_pakage_roaming_tc52_1(driver):
     buypakage.click_button_by_text("Đăng ký")
     buypakage.click_button_by_text("Đăng ký ngay")
     buypakage.click_button_by_text("Xác nhận thanh toán")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Đăng ký gói cước thất bại")
     assert buypakage.is_result_displayed("Đăng ký gói cước thất bại")
     
@@ -227,7 +227,7 @@ def test_cancel_pakage_roaming_tc53(driver):
     buypakage.click_button_by_text("Đăng ký")
     buypakage.click_button_by_text("Huỷ")
     buypakage.click_button_by_text("Đồng ý")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Huỷ thành công")
     assert buypakage.is_result_displayed("Huỷ thành công")
 
@@ -391,7 +391,7 @@ def test_register_pakage_tc64(driver):
     buypakage.click_button_by_text("Đăng ký ngay")
     # buypakage.click_button_by_text("Tiếp tục")
     buypakage.click_button_by_text("Xác nhận thanh toán")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Đăng ký gói cước thành công")
     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
 
@@ -406,7 +406,7 @@ def test_unregister_pakage_tc65(driver):
     buypakage.click_button_by_text("Chi tiết")
     buypakage.click_button_by_text("Huỷ")
     buypakage.click_button_by_text("Đồng ý")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Huỷ thành công")
     assert buypakage.is_result_displayed("Huỷ thành công")
 
@@ -424,7 +424,7 @@ def test_book_roaming_tc66(driver):
     buypakage.click_button_by_text("1")
     buypakage.click_button_by_text("Xác nhận")
     buypakage.click_by_text("Đồng ý")
-    buypakage.input_otp("000000")
+    buypakage.input_otp("888888")
     buypakage.wait_for_result("Hẹn đăng ký thành công")
     assert buypakage.is_result_displayed("Hẹn đăng ký thành công")
 

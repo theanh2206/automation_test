@@ -25,9 +25,9 @@ def test_search_package_tc85(driver):
 def test_search_package_tc86(driver):
     servicespage = ServicesPage(driver)
     servicespage.click_button_by_text("Dịch vụ")
-    servicespage.search_package("MobiGames")
-    servicespage.wait_for_result("MobiGames")
-    assert servicespage.is_result_displayed("MobiGames")
+    servicespage.search_package("Funring")
+    servicespage.wait_for_result("Funring")
+    assert servicespage.is_result_displayed("Funring")
 
 #TC87. Scroll banner 
 @pytest.mark.tc87

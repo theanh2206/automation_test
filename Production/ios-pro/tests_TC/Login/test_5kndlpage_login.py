@@ -24,7 +24,7 @@ def test_change_point_tc94(driver):
     kndlpage.click_button_by_text("add square 1", times=3)
     kndlpage.click_button_by_text("Đổi điểm")
     kndlpage.click_by_text1("Xác nhận")
-    kndlpage.input_otp("000000")
+    kndlpage.input_otp("888888")
     kndlpage.wait_for_result("Thành công")
     assert kndlpage.is_result_displayed("Thành công")
 
@@ -38,7 +38,7 @@ def test_change_combo_pakage_tc95(driver):
     kndlpage.click_button_by_text("add square 1", times=3)
     kndlpage.click_button_by_text("Đổi điểm")
     kndlpage.click_button_accept()
-    kndlpage.input_otp("000000")
+    kndlpage.input_otp("888888")
     kndlpage.wait_for_result("Thành công")
     assert kndlpage.is_result_displayed("Thành công")
 #TC96. Gói thoại
@@ -51,7 +51,7 @@ def test_change_voice_pakage_tc96(driver):
     kndlpage.click_button_by_text("add square 1", times=3)
     kndlpage.click_button_by_text("Đổi điểm")
     kndlpage.click_button_accept()
-    kndlpage.input_otp("000000")
+    kndlpage.input_otp("888888")
     kndlpage.wait_for_result("Thành công")
     assert kndlpage.is_result_displayed("Thành công")
 #TC97. Đổi quà tặng
@@ -66,7 +66,7 @@ def test_change_gift_pakage_tc97(driver):
     kndlpage.click_button_by_text("add square 1", times=3)
     kndlpage.click_button_by_text("Đổi ngay")
     kndlpage.click_buttom_confirm()
-    kndlpage.input_otp("000000")
+    kndlpage.input_otp("888888")
     kndlpage.wait_for_result("Thành công")
     assert kndlpage.is_result_displayed("Thành công")
 #TC98. Đổi data code
@@ -80,7 +80,7 @@ def test_change_data_code_tc98(driver):
     kndlpage.click_by_text("Datacode")
     kndlpage.click_button_by_text("btn datacode", 1)
     kndlpage.click_button_by_text("Đồng ý")
-    kndlpage.input_otp("000000")
+    kndlpage.input_otp("888888")
     kndlpage.wait_for_result("Thành công")
     assert kndlpage.is_result_displayed("Thành công")
 #TC99. VETC
@@ -96,7 +96,7 @@ def test_change_VETC_tc99(driver):
     kndlpage.click_by_text("VETC")
     kndlpage.click_button_by_text("btn datacode")
     kndlpage.click_button_by_text("Đồng ý")
-    kndlpage.input_otp("000000")
+    kndlpage.input_otp("888888")
     kndlpage.wait_for_result("Đổi điểm thành công")
     assert kndlpage.is_result_displayed("Đổi điểm thành công")
 #TC100. CLick button reload

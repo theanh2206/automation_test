@@ -97,7 +97,7 @@ def test_tc78(driver):
     dealspage.click_by_text1("Điện máy chợ lớn")
     dealspage.click_by_text1("Đổi ngay")
     dealspage.click_by_text1("Đồng ý")
-    dealspage.input_otp("000000")
+    dealspage.input_otp("888888")
     dealspage.wait_for_result("không hỗ trợ")
     assert dealspage.is_result_displayed("không hỗ trợ")
 #TC79. Kiểm tra chi tiết voucher

@@ -49,6 +49,7 @@ def test_click_icon_utilities_tc133(driver):
     homepage.click_button_by_text("icBack")
     homepage.click_by_text("Mua SIM")
     homepage.click_button_by_text("icBack")
+    homepage.scroll_left(times=1)
     homepage.click_by_text("MobiFone CA")
     homepage.click_button_by_text("icBack")
     homepage.click_by_text("Tích điểm nhận quà")
