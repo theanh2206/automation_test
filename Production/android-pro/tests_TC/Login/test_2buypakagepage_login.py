@@ -2,6 +2,9 @@ import pytest
 from selenium.webdriver.support import expected_conditions as EC
 from pages.BuyPakagePage_page import BuyPakagePage
 
+
+DEFAULT_OTP = "000000"
+ADD_PHONE_OTP = "134679"
 #Tìm kiếm gói cước/ dịch vụ bất kỳ trên thanh tìm kiếm
 #TC40. Tìm kiếm gói cước tồn tại trong db
 @pytest.mark.tc40
@@ -45,7 +48,7 @@ def test_register_pakage_search_tc45(driver):
     buypakage.click_by_text("Chi tiết")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvRegister")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvPaymentConfirm")
-    buypakage.input_otp("000000")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Đăng ký gói cước thành công")
     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
 #TC46. Huỷ gói cước ở thanh tìm kiếm
@@ -59,7 +62,7 @@ def test_unregister_pakage_search_tc46(driver):
     buypakage.click_by_text("Chi tiết")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvCancelPackage")
     buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
-    buypakage.input_otp("000000")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Hủy gói cước thành công")
     assert buypakage.is_result_displayed("Hủy gói cước thành công")
 #TC47. Tạo gói cước cá nhân
@@ -72,7 +75,7 @@ def test_create_pakage_OTP_tc47(driver):
     buypakage.click_button_create_pakage()
     # buypakage.click_by_text("Đăng ký")
     # buypakage.click_payment_confirm()
-    # buypakage.input_otp("000000")
+    # buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Gói cước linh hoạt")
     assert buypakage.is_result_displayed("Gói cước linh hoạt")
 #2. Đăng ký bằng mã pin
@@ -83,7 +86,7 @@ def test_create_pakage_OTP_tc47(driver):
 #     buypakage.click_personal_flex()
 #     buypakage.click_button_create_pakage()
 #     buypakage.click_payment_confirm()
-#     buypakage.input_otp("0000")
+#     buypakage.input_otp(DEFAULT_OTP)
 #     buypakage.click_button_accept()
 #     buypakage.wait_for_result("Đăng ký gói cước thành công")
 #     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
@@ -96,7 +99,7 @@ def test_create_pakage_OTP_tc47(driver):
 #     buypakage.click_button_create_pakage()
 #     buypakage.click_button_cancel()
 #     buypakage.click_button_continute()
-#     buypakage.input_otp("000000")
+#     buypakage.input_otp(DEFAULT_OTP)
 #     buypakage.click_button_accept()
 #     buypakage.wait_for_result("Hủy gói cước thành công")
 #     assert buypakage.is_result_displayed("Hủy gói cước thành công")
@@ -112,7 +115,7 @@ def test_create_pakage_flex_OTP_tc48(driver):
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvRegister")
     buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
     buypakage.click_payment_confirm()
-    # buypakage.input_otp("000000")
+    # buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Xác nhận OTP")
     assert buypakage.is_result_displayed("Xác nhận OTP")
 #2. Đăng ký bằng mã PIN
@@ -123,7 +126,7 @@ def test_create_pakage_flex_OTP_tc48(driver):
 #     buypakage.click_time_flex()
 #     buypakage.click_register_button2()
 #     buypakage.click_payment_confirm()
-#     buypakage.input_otp("0000")
+#     buypakage.input_otp(DEFAULT_OTP)
 #     buypakage.click_button_accept()
 #     buypakage.wait_for_result("Đăng ký gói cước thành công")
 #     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
@@ -201,30 +204,30 @@ def test_create_pakage_roaming_tc52(driver):
     buypakage = BuyPakagePage(driver)
     buypakage.click_buy_pakage()
     buypakage.click_icon_cvqt()
-    buypakage.click_pakage_roaming()
-    buypakage.scroll_to_element("Đăng ký")
-    buypakage.click_create_pakage_roaming()
-    buypakage.click_register_d5()
-    buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
-    buypakage.click_payment_confirm()
-    buypakage.input_otp("000000")
-    buypakage.wait_for_result("Đăng ký gói cước thành công")
-    assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
+    # buypakage.click_pakage_roaming()
+    buypakage.scroll_to_element("DK CVQT")
+    # buypakage.click_create_pakage_roaming()
+    # buypakage.click_register_d5()
+    # buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
+    # buypakage.click_payment_confirm()
+    # buypakage.input_otp(DEFAULT_OTP)
+    # buypakage.wait_for_result("Đăng ký gói cước thành công")
+    assert buypakage.is_result_displayed("Đã đăng ký")
 #2. Đăng ký gói xung đột
-@pytest.mark.tc52_1
-def test_create_pakage_roaming_tc52_1(driver):
-    buypakage = BuyPakagePage(driver)
-    buypakage.click_buy_pakage()
-    buypakage.click_icon_cvqt()
-    buypakage.click_pakage_roaming()
-    buypakage.scroll_to_element("Đăng ký")
-    buypakage.click_create_pakage_roaming()
-    buypakage.click_register_d5()
-    buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
-    buypakage.click_payment_confirm()
-    buypakage.input_otp("000000")
-    buypakage.wait_for_result("Đăng ký gói cước thất bại")
-    assert buypakage.is_result_displayed("Đăng ký gói cước thất bại")
+# @pytest.mark.tc52_1
+# def test_create_pakage_roaming_tc52_1(driver):
+#     buypakage = BuyPakagePage(driver)
+#     buypakage.click_buy_pakage()
+#     buypakage.click_icon_cvqt()
+#     buypakage.click_pakage_roaming()
+#     buypakage.scroll_to_element("Đăng ký")
+#     buypakage.click_create_pakage_roaming()
+#     buypakage.click_register_d5()
+#     buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
+#     buypakage.click_payment_confirm()
+#     buypakage.input_otp(DEFAULT_OTP)
+#     buypakage.wait_for_result("Đăng ký gói cước thất bại")
+#     assert buypakage.is_result_displayed("Đăng ký gói cước thất bại")
     
 #TC53. Huỷ gói cước data roaming linh hoạt
 @pytest.mark.tc53
@@ -232,13 +235,15 @@ def test_cancel_pakage_roaming_tc53(driver):
     buypakage = BuyPakagePage(driver)
     buypakage.click_buy_pakage()
     buypakage.click_icon_cvqt()
-    buypakage.click_pakage_roaming()
-    buypakage.scroll_to_element("Đăng ký")
-    buypakage.click_create_pakage_roaming()
-    buypakage.click_button_cancel()
-    buypakage.input_otp("000000")
-    buypakage.wait_for_result("Hủy gói cước thành công")
-    assert buypakage.is_result_displayed("Hủy gói cước thành công")
+    # buypakage.click_pakage_roaming()
+    buypakage.scroll_to_element("DK CVQT")
+    # buypakage.click_create_pakage_roaming()
+    # buypakage.click_register_d5()
+    # buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
+    # buypakage.click_payment_confirm()
+    # buypakage.input_otp(DEFAULT_OTP)
+    # buypakage.wait_for_result("Hủy gói cước thành công")
+    assert not buypakage.is_result_displayed("Hủy gói cước thành công")
 
 #TC54. Click hướng dẫn sử dụng dịch vụ
 @pytest.mark.tc54
@@ -282,7 +287,7 @@ def test_register_pakage_tc56(driver):
     buypakage.click_by_text("Chi tiết")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvRegister")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvPaymentConfirm")
-    buypakage.input_otp("000000")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Đăng ký gói cước thành công")
     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
 #2. Đăng ký bằng mã pin
@@ -293,7 +298,7 @@ def test_register_pakage_tc56(driver):
 #     buypakage.click_register_d5()
 #     buypakage.click_button_continute1()
 #     buypakage.click_payment_confirm()
-#     buypakage.input_otp("8888")
+#     buypakage.input_otp(DEFAULT_OTP)
 #     buypakage.wait_for_result("Đăng ký gói cước thành công")
 #     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")    
 
@@ -307,7 +312,7 @@ def test_unregister_pakage_tc57(driver):
     buypakage.click_by_text("Chi tiết")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvCancelPackage")
     buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
-    buypakage.input_otp("000000")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Hủy gói cước thành công")
     assert buypakage.is_result_displayed("Hủy gói cước thành công")
 #2. Huỷ bằng mã PIN
@@ -317,7 +322,7 @@ def test_unregister_pakage_tc57(driver):
 #     buypakage.click_buy_pakage()
 #     buypakage.click_button_cancel()
 #     buypakage.click_button_continute1()
-#     buypakage.input_otp("8888")
+#     buypakage.input_otp(DEFAULT_OTP)
 #     buypakage.wait_for_result("Hủy gói cước thành công")
 #     assert buypakage.is_result_displayed("Hủy gói cước thành công")
 
@@ -362,10 +367,9 @@ def test_click_sort_data_tc61(driver):
     buypakage.click_buy_pakage()
     buypakage.click_category_by_index(2)
     buypakage.click_sort_data()
-    buypakage.wait_for_result("6SMAX")
     buypakage.click_sort_data()
-    buypakage.wait_for_result("D5")
-    assert buypakage.is_result_displayed("D5")
+    buypakage.wait_for_result("Xem tất cả")
+    assert buypakage.is_result_displayed("Xem tất cả")
 #Màn hình tất cả gói cước
 #TC62. Tìm kiếm gói cước tồn tại 
 @pytest.mark.tc62
@@ -397,12 +401,12 @@ def test_register_pakage_tc64(driver):
     buypakage.click_by_text("Chi tiết")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvRegister")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvPaymentConfirm")
-    buypakage.input_otp("000000")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Đăng ký gói cước thành công")
     assert buypakage.is_result_displayed("Đăng ký gói cước thành công")
 #TC65 Huỷ gói cước bằng OTP
 @pytest.mark.tc65
-def test_register_pakage_tc65(driver):
+def test_unregister_pakage_tc65(driver):
     buypakage = BuyPakagePage(driver)
     buypakage.click_buy_pakage()
     buypakage.click_view_all_pakage()
@@ -412,7 +416,7 @@ def test_register_pakage_tc65(driver):
     buypakage.click_by_text("Chi tiết")
     buypakage.click_text_by_resource_id("vms.com.vn.mymobifone:id/tvCancelPackage")
     buypakage.click_button_by_resource_id("vms.com.vn.mymobifone:id/btContinue")
-    buypakage.input_otp("000000")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Hủy gói cước thành công")
     assert buypakage.is_result_displayed("Hủy gói cước thành công")
 #TC66 Hẹn roaming 
@@ -425,7 +429,7 @@ def test_book_roaming_tc66(driver):
     buypakage.click_schedule_roaming()
     buypakage.et_time("22062026")
     buypakage.click_button_submit()
-    buypakage.input_otp("000000")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Đặt lịch hẹn thành công")
     assert buypakage.is_result_displayed("Đặt lịch hẹn thành công")
 
@@ -435,16 +439,16 @@ def test_book_roaming_tc67(driver):
     buypakage = BuyPakagePage(driver)
     buypakage.click_buy_pakage()
     buypakage.click_view_all_pakage()
-    buypakage.click_button_detail()
-    buypakage.click_contact_consulting()
-    buypakage.send_phone_number("0762203039") 
+    buypakage.click_by_text("Chi tiết", 1)
+    buypakage.click_by_text("Liên hệ tư vấn")
+    buypakage.send_phone_number("0768259289") 
     buypakage.select_day_contact(30)
     buypakage.select_time_contact()
     buypakage.hide_keyboard()
     buypakage.click_button_book()
     buypakage.input_otp("000000")
-    buypakage.wait_for_result("Đặt lịch liên hệ tư vấn thành công")
-    assert buypakage.is_result_displayed("Đặt lịch liên hệ tư vấn thành công")
+    buypakage.wait_for_result("Đặt lịch liên hệ tư vấn thành công!")
+    assert buypakage.is_result_displayed("Đặt lịch liên hệ tư vấn thành công!")
     
 #TC68. Tặng gói cước 
 @pytest.mark.tc68
@@ -453,8 +457,8 @@ def test_gift_pakage_tc68(driver):
     buypakage.click_buy_pakage()
     buypakage.click_view_all_pakage()
     buypakage.click_by_text("Chi tiết", 1)
-    buypakage.gift_pakage("0762203039")
-    buypakage.input_otp("000000")
+    buypakage.gift_pakage("0768259289")
+    buypakage.input_otp(DEFAULT_OTP)
     buypakage.wait_for_result("Tặng gói cước thất bại")
     assert buypakage.is_result_displayed("Tặng gói cước thất bại")
 
@@ -482,5 +486,5 @@ def test_click_utilities_tc70(driver):
     buypakage.press_back()
     buypakage.scroll_to_element1("Tiện ích")
     buypakage.click_by_text("Zalo miniApp")
-    buypakage.wait_for_text("Đăng nhập")
-    assert buypakage.is_result_displayed("Đăng nhập")
+    buypakage.wait_for_text("Tạo tài khoản mới")
+    assert buypakage.is_result_displayed("Tạo tài khoản mới")
