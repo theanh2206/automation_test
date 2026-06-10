@@ -388,6 +388,7 @@ def test_click_customer_support_tc35(driver):
     homepage.click_by_text("Hòa mạng")
     homepage.wait_for_result("Hòa mạng")
     assert homepage.is_result_displayed("Hòa mạng")
+    
 @pytest.mark.tc36
 def test_click_customer_support_tc36(driver):
     homepage = HomePage(driver)

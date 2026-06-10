@@ -1,0 +1,2 @@
+test_search_package_D5_tc01,tests_TC/Login/test_1homepage_login.py::test_search_package_D5_tc01,call,PASSED,13.88,R83X20ACPQV,2026-05-26 13:49:03
+test_search_package_D5_tc01,tests_TC/Login/test_1homepage_login.py::test_search_package_D5_tc01,call,FAILED,12.05,R83X20ACPQV,2026-05-26 13:49:32
