@@ -1,10 +1,14 @@
+from turtle import delay
+
 from pages.BasePage_page import BasePage
 from pages.LocatorPage_page import LocatorPage
 from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.appiumby import AppiumBy
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.actions.pointer_input import PointerInput
+from selenium.webdriver.common.actions.action_builder import ActionBuilder
 import time
 
 class ServicesPage(BasePage):
@@ -40,23 +44,67 @@ class ServicesPage(BasePage):
     def click_button_continute1(self):
         self.click(self.locators.BUTTON_CONTINUTE1)
     #Swipe banner ngang
-    def swipe_banner(self, times=1, duration=1200, delay=0.5):
-        try:
-            banner = self.driver.find_element(
-            By.ID, "vms.com.vn.mymobifone:id/rlSliderBannerService"
+    # def swipe_banner(self, times=1, duration=1200, delay=0.5):
+    #     try:
+    #         banner = self.driver.find_element(
+    #         By.ID, "vms.com.vn.mymobifone:id/rlSliderBannerService"
+    #     )
+    #     except NoSuchElementException:
+    #         raise Exception("❌ Không tìm thấy banner để swipe")
+    #     location = banner.location
+    #     size = banner.size
+    # # 👉 Tối ưu khoảng cách swipe (gần full width)
+    #     start_x = int(location['x'] + size['width'] * 0.95)
+    #     end_x = int(location['x'] + size['width'] * 0.05)
+    #     y = int(location['y'] + size['height'] / 2)
+    #     for i in range(times):
+    #         print(f"👉 Swipe lần {i+1}")
+    #         self.driver.swipe(start_x, y, end_x, y, duration)
+    #         time.sleep(delay)
+
+
+    def swipe_banner(self, times=1, duration=800, delay=0.7, timeout=15):
+        locator = (By.ID, "vms.com.vn.mymobifone:id/rlSliderBannerService")
+
+        wait = WebDriverWait(
+            self.driver,
+            timeout,
+            poll_frequency=0.5,
+            ignored_exceptions=(NoSuchElementException, StaleElementReferenceException)
         )
-        except NoSuchElementException:
-            raise Exception("❌ Không tìm thấy banner để swipe")
-        location = banner.location
-        size = banner.size
-    # 👉 Tối ưu khoảng cách swipe (gần full width)
-        start_x = int(location['x'] + size['width'] * 0.95)
-        end_x = int(location['x'] + size['width'] * 0.05)
-        y = int(location['y'] + size['height'] / 2)
+
         for i in range(times):
-            print(f"👉 Swipe lần {i+1}")
-            self.driver.swipe(start_x, y, end_x, y, duration)
-            time.sleep(delay)
+            try:
+                banner = wait.until(EC.visibility_of_element_located(locator))
+
+                # Lấy lại location/size mỗi lần để tránh stale/flaky
+                rect = banner.rect
+                width = rect["width"]
+                height = rect["height"]
+
+                start_x = int(rect["x"] + width * 0.85)
+                end_x = int(rect["x"] + width * 0.15)
+                y = int(rect["y"] + height * 0.5)
+
+                print(f"👉 Swipe banner lần {i + 1}: {start_x},{y} -> {end_x},{y}")
+
+                finger = PointerInput("touch", "finger")
+                actions = ActionBuilder(self.driver, mouse=finger)
+
+                actions.pointer_action.move_to_location(start_x, y)
+                actions.pointer_action.pointer_down()
+                actions.pointer_action.pause(duration / 1000)
+                actions.pointer_action.move_to_location(end_x, y)
+                actions.pointer_action.pointer_up()
+                actions.perform()
+
+                time.sleep(delay)
+
+            except TimeoutException:
+                raise Exception("❌ Không tìm thấy banner hoặc banner chưa hiển thị")
+            except StaleElementReferenceException:
+                print("⚠️ Banner bị stale, thử lại...")
+                time.sleep(1)
     # Hàm scroll tới phần tử cụ thể
     def scroll_to_element(self, text, max_scroll=6):
         size = self.driver.get_window_size()

@@ -1,0 +1,63 @@
+[2026-06-04 17:10:32] [INFO] [test_click_button_login_tc130] ✅ PASSED (7.21s)
+[2026-06-04 17:10:45] [INFO] [test_click_sidebar_tc131] ✅ PASSED (7.77s)
+[2026-06-04 17:11:21] [INFO] [test_click_swipe_language_tc132] ✅ PASSED (30.29s)
+[2026-06-04 17:11:44] [ERROR] [test_click_icon_utilities_tc133] ❌ FAILED (17.77s)
+[2026-06-04 17:11:45] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_click_icon_utilities_tc133_171144.png
+[2026-06-04 17:11:45] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\pages\HomePage_page.py
+[2026-06-04 17:11:45] [ERROR] 📍 Line: 235
+[2026-06-04 17:11:45] [ERROR] 📍 Error: Exception: Không tìm thấy element chứa text: Hòa mạng
+[2026-06-04 17:12:07] [ERROR] [test_click_icon_utilities_tc134] ❌ FAILED (16.02s)
+[2026-06-04 17:12:07] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_click_icon_utilities_tc134_171207.png
+[2026-06-04 17:12:07] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\pages\HomePage_page.py
+[2026-06-04 17:12:07] [ERROR] 📍 Line: 235
+[2026-06-04 17:12:07] [ERROR] 📍 Error: Exception: Không tìm thấy element chứa text: Thanh Toán
+[2026-06-04 17:12:37] [INFO] [test_click_avata_contact_tc135] ✅ PASSED (24.27s)
+[2026-06-04 17:13:14] [ERROR] [test_click_avata_contact_tc136] ❌ FAILED (30.69s)
+[2026-06-04 17:13:15] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_click_avata_contact_tc136_171314.png
+[2026-06-04 17:13:15] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-04 17:13:15] [ERROR] 📍 Line: 121
+[2026-06-04 17:13:15] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-04 17:13:48] [ERROR] [test_click_customer_support_tc137] ❌ FAILED (27.84s)
+[2026-06-04 17:13:49] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_click_customer_support_tc137_171348.png
+[2026-06-04 17:13:49] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\pages\HomePage_page.py
+[2026-06-04 17:13:49] [ERROR] 📍 Line: 235
+[2026-06-04 17:13:49] [ERROR] 📍 Error: Exception: Không tìm thấy element chứa text: Chuẩn hoá thông tin
+[2026-06-04 17:14:04] [INFO] [test_click_button_login_tc138] ✅ PASSED (9.85s)
+[2026-06-04 17:14:18] [INFO] [test_click_button_login_tc139] ✅ PASSED (8.13s)
+[2026-06-04 17:14:31] [ERROR] [test_click_categories_tc140] ❌ FAILED (6.84s)
+[2026-06-04 17:14:31] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_click_categories_tc140_171431.png
+[2026-06-04 17:14:31] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\pages\BuyPakagePage_page.py
+[2026-06-04 17:14:31] [ERROR] 📍 Line: 316
+[2026-06-04 17:14:31] [ERROR] 📍 Error: Exception: Không tìm thấy category tại vị trí: 1
+[2026-06-04 17:14:47] [INFO] [test_click_cycle_tc141] ✅ PASSED (10.03s)
+[2026-06-04 17:14:59] [ERROR] [test_click_sort_price_tc142] ❌ FAILED (6.71s)
+[2026-06-04 17:15:00] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_click_sort_price_tc142_171459.png
+[2026-06-04 17:15:00] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\pages\BuyPakagePage_page.py
+[2026-06-04 17:15:00] [ERROR] 📍 Line: 316
+[2026-06-04 17:15:00] [ERROR] 📍 Error: Exception: Không tìm thấy category tại vị trí: 2
+[2026-06-04 17:15:31] [ERROR] [test_click_sort_data_tc143] ❌ FAILED (25.89s)
+[2026-06-04 17:15:32] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_click_sort_data_tc143_171531.png
+[2026-06-04 17:15:32] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-04 17:15:32] [ERROR] 📍 Line: 121
+[2026-06-04 17:15:32] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-04 17:16:00] [ERROR] [test_check_view_all_pakage_tc144] ❌ FAILED (22.88s)
+[2026-06-04 17:16:01] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-04\test_check_view_all_pakage_tc144_171600.png
+[2026-06-04 17:16:01] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\pages\BuyPakagePage_page.py
+[2026-06-04 17:16:01] [ERROR] 📍 Line: 42
+[2026-06-04 17:16:01] [ERROR] 📍 Error: Exception: Không tìm thấy element chứa text: Chi tiết
+[2026-06-04 17:16:15] [INFO] [test_click_button_login_tc145] ✅ PASSED (9.21s)
+[2026-06-04 17:16:29] [INFO] [test_click_button_login_tc146] ✅ PASSED (8.37s)

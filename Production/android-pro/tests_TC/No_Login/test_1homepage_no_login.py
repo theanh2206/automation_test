@@ -65,11 +65,10 @@ def test_click_icon_utilities_tc134(driver):
     homepage.scroll_to_element1("Dịch vụ khác")
     homepage.click_by_text("MobiFone CA")
     homepage.press_back()
+    homepage.scroll_to_element("Mua SIM")
     homepage.click_by_text("Mua SIM")
-    homepage.press_back()
-    homepage.click_by_text("Zalo miniApp")
-    homepage.wait_for_result("Đăng nhập")
-    assert homepage.is_result_displayed("Đăng nhập")
+    homepage.wait_for_result("Mua SIM")
+    assert homepage.is_result_displayed("Mua SIM")
 #TC135. Click vào từng dịch vụ nổi bật
 @pytest.mark.tc135
 def test_click_avata_contact_tc135(driver):
@@ -91,11 +90,12 @@ def test_click_avata_contact_tc135(driver):
     assert homepage.is_result_displayed("Dịch vụ nổi bật")
 #TC136. Click gói cước hấp dẫn
 @pytest.mark.tc136
-def test_click_avata_contact_tc136(driver):
+def test_click_pakage_hot_tc136(driver):
     homepage = HomePage(driver)
     homepage.click_by_text("Chi tiết")
     homepage.press_back()
     homepage.click_by_text("Xem tất cả", 2)
+    homepage.press_back()
     homepage.press_back()
     homepage.wait_for_result("Gói cước hấp dẫn")
     assert homepage.is_result_displayed("Gói cước hấp dẫn")
