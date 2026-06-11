@@ -1,0 +1,420 @@
+[2026-06-11 14:43:18] [ERROR] [test_click_services_tc92_2] ❌ FAILED (34.88s)
+[2026-06-11 14:43:19] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_click_services_tc92_2_144318.png
+[2026-06-11 14:43:19] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\errorhandler.py
+[2026-06-11 14:43:19] [ERROR] 📍 Line: 125
+[2026-06-11 14:43:19] [ERROR] 📍 Error: selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:45:02] [INFO] [test_click_services_tc92_2] ✅ PASSED (54.68s)
+[2026-06-11 14:46:48] [INFO] [test_click_services_tc92_2] ✅ PASSED (58.29s)
+[2026-06-11 14:48:09] [INFO] [test_check_tab_introduce_tc93] ✅ PASSED (21.82s)
+[2026-06-11 14:48:50] [ERROR] [test_change_point_tc94] ❌ FAILED (33.77s)
+[2026-06-11 14:48:51] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_point_tc94_144850.png
+[2026-06-11 14:48:51] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:48:51] [ERROR] 📍 Line: 121
+[2026-06-11 14:48:51] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:49:32] [ERROR] [test_change_combo_pakage_tc95] ❌ FAILED (35.19s)
+[2026-06-11 14:49:32] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_combo_pakage_tc95_144932.png
+[2026-06-11 14:49:32] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:49:32] [ERROR] 📍 Line: 121
+[2026-06-11 14:49:32] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:49:57] [ERROR] [test_change_voice_pakage_tc96] ❌ FAILED (19.11s)
+[2026-06-11 14:49:58] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_voice_pakage_tc96_144957.png
+[2026-06-11 14:49:58] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\pages\KndlPage_page.py
+[2026-06-11 14:49:58] [ERROR] 📍 Line: 29
+[2026-06-11 14:49:58] [ERROR] 📍 Error: Exception: Không tìm thấy element chứa text: Gói thoại
+[2026-06-11 14:50:39] [ERROR] [test_change_gift_pakage_tc97] ❌ FAILED (35.33s)
+[2026-06-11 14:50:39] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_gift_pakage_tc97_145039.png
+[2026-06-11 14:50:39] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:50:39] [ERROR] 📍 Line: 121
+[2026-06-11 14:50:39] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:51:23] [ERROR] [test_change_data_code_tc98] ❌ FAILED (37.66s)
+[2026-06-11 14:51:23] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_data_code_tc98_145123.png
+[2026-06-11 14:51:23] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:51:23] [ERROR] 📍 Line: 121
+[2026-06-11 14:51:23] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:53:59] [INFO] [test_check_tab_introduce_tc93] ✅ PASSED (21.37s)
+[2026-06-11 14:54:39] [ERROR] [test_change_point_tc94] ❌ FAILED (33.55s)
+[2026-06-11 14:54:39] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_point_tc94_145439.png
+[2026-06-11 14:54:39] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:54:39] [ERROR] 📍 Line: 121
+[2026-06-11 14:54:39] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:55:19] [ERROR] [test_change_combo_pakage_tc95] ❌ FAILED (34.52s)
+[2026-06-11 14:55:20] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_combo_pakage_tc95_145519.png
+[2026-06-11 14:55:20] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:55:20] [ERROR] 📍 Line: 121
+[2026-06-11 14:55:20] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:56:01] [ERROR] [test_change_voice_pakage_tc96] ❌ FAILED (35.09s)
+[2026-06-11 14:56:01] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_voice_pakage_tc96_145601.png
+[2026-06-11 14:56:01] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:56:01] [ERROR] 📍 Line: 121
+[2026-06-11 14:56:01] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:56:43] [ERROR] [test_change_gift_pakage_tc97] ❌ FAILED (35.47s)
+[2026-06-11 14:56:43] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_gift_pakage_tc97_145643.png
+[2026-06-11 14:56:43] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:56:43] [ERROR] 📍 Line: 121
+[2026-06-11 14:56:43] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:57:27] [ERROR] [test_change_data_code_tc98] ❌ FAILED (37.54s)
+[2026-06-11 14:57:27] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_data_code_tc98_145727.png
+[2026-06-11 14:57:27] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:57:27] [ERROR] 📍 Line: 121
+[2026-06-11 14:57:27] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:58:13] [ERROR] [test_change_VETC_tc99] ❌ FAILED (40.18s)
+[2026-06-11 14:58:14] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_VETC_tc99_145813.png
+[2026-06-11 14:58:14] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 14:58:14] [ERROR] 📍 Line: 121
+[2026-06-11 14:58:14] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 14:58:34] [INFO] [test_click_button_reload_tc100] ✅ PASSED (14.49s)
+[2026-06-11 14:58:53] [INFO] [test_button_seemore_tc101] ✅ PASSED (13.76s)
+[2026-06-11 14:59:26] [INFO] [test_button_register_tc102] ✅ PASSED (26.64s)
+[2026-06-11 14:59:50] [INFO] [test_swipe_banner_tc103] ✅ PASSED (18.08s)
+[2026-06-11 15:00:09] [INFO] [test_check_history_tc104] ✅ PASSED (13.19s)
+[2026-06-11 15:00:37] [INFO] [test_list_deal_kndl_tc105] ✅ PASSED (22.41s)
+[2026-06-11 15:06:35] [ERROR] [test_change_point_tc94] ❌ FAILED (13.72s)
+[2026-06-11 15:06:36] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_point_tc94_150635.png
+[2026-06-11 15:06:36] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\tests_TC\Login\test_5kndlpage_login.py
+[2026-06-11 15:06:36] [ERROR] 📍 Line: 32
+[2026-06-11 15:06:36] [ERROR] 📍 Error: AssertionError: assert not True
+ +  where True = is_result_displayed('Thành công')
+ +    where is_result_displayed = <pages.KndlPage_page.KndlPage object at 0x0000015A3E609FD0>.is_result_displayed
+[2026-06-11 15:07:14] [ERROR] [test_change_point_tc94] ❌ FAILED (14.21s)
+[2026-06-11 15:07:14] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_point_tc94_150714.png
+[2026-06-11 15:07:14] [ERROR] 📍 File: C:\Users\anh.vu11\automation_test\Production\android-pro\tests_TC\Login\test_5kndlpage_login.py
+[2026-06-11 15:07:14] [ERROR] 📍 Line: 32
+[2026-06-11 15:07:14] [ERROR] 📍 Error: AssertionError: assert not True
+ +  where True = is_result_displayed('Thành công')
+ +    where is_result_displayed = <pages.KndlPage_page.KndlPage object at 0x0000026D261C9FD0>.is_result_displayed
+[2026-06-11 15:08:44] [INFO] [test_change_point_tc94] ✅ PASSED (13.69s)
+[2026-06-11 15:13:09] [ERROR] [test_change_combo_pakage_tc95] ❌ FAILED (35.01s)
+[2026-06-11 15:13:10] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_combo_pakage_tc95_151309.png
+[2026-06-11 15:13:10] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:13:10] [ERROR] 📍 Line: 121
+[2026-06-11 15:13:10] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:14:01] [INFO] [test_change_combo_pakage_tc95] ✅ PASSED (14.57s)
+[2026-06-11 15:14:27] [INFO] [test_change_voice_pakage_tc96] ✅ PASSED (14.9s)
+[2026-06-11 15:15:16] [ERROR] [test_change_gift_pakage_tc97] ❌ FAILED (35.43s)
+[2026-06-11 15:15:16] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_gift_pakage_tc97_151516.png
+[2026-06-11 15:15:16] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:15:16] [ERROR] 📍 Line: 121
+[2026-06-11 15:15:16] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:16:05] [ERROR] [test_change_gift_pakage_tc97] ❌ FAILED (35.3s)
+[2026-06-11 15:16:05] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_gift_pakage_tc97_151605.png
+[2026-06-11 15:16:05] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:16:05] [ERROR] 📍 Line: 121
+[2026-06-11 15:16:05] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:16:38] [INFO] [test_change_gift_pakage_tc97] ✅ PASSED (15.07s)
+[2026-06-11 15:18:24] [ERROR] [test_change_data_code_tc98] ❌ FAILED (38.23s)
+[2026-06-11 15:18:25] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_data_code_tc98_151824.png
+[2026-06-11 15:18:25] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:18:25] [ERROR] 📍 Line: 121
+[2026-06-11 15:18:25] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:21:59] [ERROR] [test_change_data_code_tc98] ❌ FAILED (37.51s)
+[2026-06-11 15:21:59] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_data_code_tc98_152159.png
+[2026-06-11 15:21:59] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:21:59] [ERROR] 📍 Line: 121
+[2026-06-11 15:21:59] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:26:18] [ERROR] [test_change_data_code_tc98] ❌ FAILED (37.63s)
+[2026-06-11 15:26:18] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_data_code_tc98_152618.png
+[2026-06-11 15:26:18] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:26:18] [ERROR] 📍 Line: 121
+[2026-06-11 15:26:18] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:29:30] [ERROR] [test_change_data_code_tc98] ❌ FAILED (40.15s)
+[2026-06-11 15:29:30] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_data_code_tc98_152930.png
+[2026-06-11 15:29:30] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:29:30] [ERROR] 📍 Line: 121
+[2026-06-11 15:29:30] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:30:18] [INFO] [test_change_data_code_tc98] ✅ PASSED (19.71s)
+[2026-06-11 15:33:08] [ERROR] [test_change_VETC_tc99] ❌ FAILED (39.1s)
+[2026-06-11 15:33:09] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_change_VETC_tc99_153308.png
+[2026-06-11 15:33:09] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:33:09] [ERROR] 📍 Line: 121
+[2026-06-11 15:33:09] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:34:12] [INFO] [test_click_button_reload_tc100] ✅ PASSED (13.33s)
+[2026-06-11 15:34:41] [INFO] [test_button_seemore_tc101] ✅ PASSED (14.5s)
+[2026-06-11 15:36:03] [INFO] [test_button_register_tc102] ✅ PASSED (17.78s)
+[2026-06-11 15:36:47] [INFO] [test_swipe_banner_tc103] ✅ PASSED (19.23s)
+[2026-06-11 15:37:11] [INFO] [test_check_history_tc104] ✅ PASSED (12.58s)
+[2026-06-11 15:37:58] [INFO] [test_list_deal_kndl_tc105] ✅ PASSED (21.93s)
+[2026-06-11 15:38:51] [ERROR] [test_click_my_services_tc106] ❌ FAILED (36.31s)
+[2026-06-11 15:38:51] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_click_my_services_tc106_153851.png
+[2026-06-11 15:38:51] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:38:51] [ERROR] 📍 Line: 121
+[2026-06-11 15:38:51] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:40:48] [ERROR] [test_click_my_services_tc106] ❌ FAILED (36.42s)
+[2026-06-11 15:40:49] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_click_my_services_tc106_154048.png
+[2026-06-11 15:40:49] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:40:49] [ERROR] 📍 Line: 121
+[2026-06-11 15:40:49] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:41:08] [INFO] [test_click_button_refesh_tc107] ✅ PASSED (13.42s)
+[2026-06-11 15:41:27] [INFO] [test_click_button_detail_tc108] ✅ PASSED (13.7s)
+[2026-06-11 15:42:01] [INFO] [test_link_google_tc109] ✅ PASSED (26.89s)
+[2026-06-11 15:42:38] [INFO] [test_click_button_delete_account_tc110] ✅ PASSED (31.86s)
+[2026-06-11 15:42:56] [INFO] [test_click_button_delete_account_tc111] ✅ PASSED (12.06s)
+[2026-06-11 15:43:27] [INFO] [test_check_tab_invoice_tc112] ✅ PASSED (24.47s)
+[2026-06-11 15:43:49] [INFO] [test_check_tab_invoice_tc113] ✅ PASSED (16.4s)
+[2026-06-11 15:44:27] [ERROR] [test_update_infor_tc114] ❌ FAILED (32.37s)
+[2026-06-11 15:44:28] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_update_infor_tc114_154427.png
+[2026-06-11 15:44:28] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:44:28] [ERROR] 📍 Line: 121
+[2026-06-11 15:44:28] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:44:46] [INFO] [test_limit_cuoc_tc115] ✅ PASSED (12.62s)
+[2026-06-11 15:45:04] [INFO] [test_ckeck_multi_sim_tc116] ✅ PASSED (12.09s)
+[2026-06-11 15:45:24] [INFO] [test_change_esim_tc117] ✅ PASSED (14.37s)
+[2026-06-11 15:46:02] [ERROR] [test_check_autopay_tc118] ❌ FAILED (31.97s)
+[2026-06-11 15:46:03] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_check_autopay_tc118_154602.png
+[2026-06-11 15:46:03] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:46:03] [ERROR] 📍 Line: 121
+[2026-06-11 15:46:03] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:46:26] [INFO] [test_check_setting_tc119] ✅ PASSED (17.3s)
+[2026-06-11 15:47:05] [INFO] [test_check_setting_tc119_1] ✅ PASSED (33.11s)
+[2026-06-11 15:47:24] [INFO] [test_switch_nofti_tc120] ✅ PASSED (13.54s)
+[2026-06-11 15:48:03] [INFO] [test_switch_smart_otp_tc121] ✅ PASSED (33.54s)
+[2026-06-11 15:48:26] [INFO] [test_deals_and_gifts_tc122] ✅ PASSED (16.61s)
+[2026-06-11 15:49:05] [ERROR] [test_block_call_tc123] ❌ FAILED (32.94s)
+[2026-06-11 15:49:05] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_block_call_tc123_154905.png
+[2026-06-11 15:49:05] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:49:05] [ERROR] 📍 Line: 121
+[2026-06-11 15:49:05] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:49:23] [INFO] [test_block_call_tc124] ✅ PASSED (12.3s)
+[2026-06-11 15:49:46] [INFO] [test_history_pakage_tc125] ✅ PASSED (16.15s)
+[2026-06-11 15:50:21] [ERROR] [test_history_pakage_tc126] ❌ FAILED (28.44s)
+[2026-06-11 15:50:21] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_history_pakage_tc126_155021.png
+[2026-06-11 15:50:21] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:50:21] [ERROR] 📍 Line: 121
+[2026-06-11 15:50:21] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 15:51:41] [INFO] [test_update_infor_tc114] ✅ PASSED (12.31s)
+[2026-06-11 15:59:11] [ERROR] [test_check_autopay_tc118] ❌ FAILED (30.88s)
+[2026-06-11 15:59:12] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_check_autopay_tc118_155911.png
+[2026-06-11 15:59:12] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 15:59:12] [ERROR] 📍 Line: 121
+[2026-06-11 15:59:12] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 16:03:28] [ERROR] [test_check_autopay_tc118] ❌ FAILED (31.58s)
+[2026-06-11 16:03:29] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_check_autopay_tc118_160328.png
+[2026-06-11 16:03:29] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 16:03:29] [ERROR] 📍 Line: 121
+[2026-06-11 16:03:29] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 16:30:17] [INFO] [test_check_autopay_tc118] ✅ PASSED (11.48s)
+[2026-06-11 16:32:20] [INFO] [test_update_infor_tc114] ✅ PASSED (12.36s)
+[2026-06-11 16:33:32] [ERROR] [test_block_call_tc123] ❌ FAILED (32.67s)
+[2026-06-11 16:33:32] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_block_call_tc123_163332.png
+[2026-06-11 16:33:32] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 16:33:32] [ERROR] 📍 Line: 121
+[2026-06-11 16:33:32] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 17:00:00] [ERROR] [test_history_pakage_tc126] ❌ FAILED (27.92s)
+[2026-06-11 17:00:01] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_history_pakage_tc126_170000.png
+[2026-06-11 17:00:01] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 17:00:01] [ERROR] 📍 Line: 121
+[2026-06-11 17:00:01] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)
+[2026-06-11 17:00:44] [ERROR] [test_history_pakage_tc126] ❌ FAILED (32.11s)
+[2026-06-11 17:00:45] [ERROR] 📸 Screenshot: reports/screenshots/2026-06-11\test_history_pakage_tc126_170044.png
+[2026-06-11 17:00:45] [ERROR] 📍 File: C:\Users\anh.vu11\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py
+[2026-06-11 17:00:45] [ERROR] 📍 Line: 121
+[2026-06-11 17:00:45] [ERROR] 📍 Error: selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\anh.vu11\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:27:16)
+    at async runCommandPromise (C:\Users\anh.vu11\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:117:24)

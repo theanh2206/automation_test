@@ -2,6 +2,9 @@ import pytest
 from selenium.webdriver.support import expected_conditions as EC
 from pages.DealsPage_page import DealsPage
 
+DEFAULT_OTP = "000000"
+ADD_PHONE_OTP = "134679"
+
 #TC71. Tìm kiếm gói cước có trong DB
 @pytest.mark.tc71
 def test_search_package_tc71(driver):
@@ -98,7 +101,7 @@ def test_tc78(driver):
     dealspage.click_by_text("Xem thêm")
     dealspage.click_icon_mypoint_deals(1)
     dealspage.click_button_exchange()
-    dealspage.input_otp("000000")#(Đổi bằng mã PIN thì chỉ cần truyền mã PIN vào là được)
+    dealspage.input_otp(DEFAULT_OTP)#(Đổi bằng mã PIN thì chỉ cần truyền mã PIN vào là được)
     dealspage.wait_for_result("Đổi voucher thành công")
     assert dealspage.is_result_displayed("Đổi voucher thành công")
 #TC79. Kiểm tra chi tiết voucher

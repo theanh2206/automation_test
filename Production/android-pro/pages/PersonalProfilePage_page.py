@@ -216,6 +216,14 @@ class PersonalProfile(BasePage):
     #Back lại bước vừa xong 
     def press_back(self):
         return super().press_back()
+
+    def click_agree_if_present(self):
+        elements = self.driver.find_elements(
+        By.ID,
+        "vms.com.vn.mymobifone:id/btAccept"
+    )
+        if elements:
+            elements[0].click()
     
     #         ===== VERIFY =====
     def wait_for_result(self, keyword):

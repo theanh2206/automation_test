@@ -209,6 +209,16 @@ class ServicesPage(BasePage):
             element.click()
         except Exception as e:
             raise Exception(f"Không tìm thấy element chứa text: {text}") from e
+    #Click by button     
+    def click_button_by_resource_id(self, resource_id):
+        try:
+            xpath = f'//android.widget.Button[@resource-id="{resource_id}"]'
+            element = WebDriverWait(self.driver, 10).until(
+                lambda d: d.find_element(AppiumBy.XPATH, xpath)
+        )
+            element.click()
+        except Exception as e:
+            raise Exception(f"Không tìm thấy button với resource-id: {resource_id}") from e
 
 
 
