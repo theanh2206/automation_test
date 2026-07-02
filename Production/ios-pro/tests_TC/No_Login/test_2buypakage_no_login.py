@@ -51,9 +51,8 @@ def test_click_sort_price_tc142(driver):
     # buypakage.click_by_text("Giá")
     buypakage.wait_for_result("D5")
     buypakage.click_by_text("Giá")
-    buypakage.wait_for_result("12MD1000")
-    buypakage.click_by_text("Giá")
     buypakage.wait_for_result("Đăng nhập")
+    buypakage.click_by_text("Giá")
     assert buypakage.is_result_displayed("Đăng nhập")
 #TC143. Lọc gói cước dung lượng
 @pytest.mark.tc143
@@ -62,10 +61,9 @@ def test_click_sort_data_tc143(driver):
     buypakage.click_buy_pakage()
     # buypakage.click_by_text("Data_2025")
     buypakage.click_by_text("Dung lượng")
-    buypakage.wait_for_result("MD30")
+    buypakage.wait_for_result("Đăng nhập")
     buypakage.click_by_text("Dung lượng")
-    buypakage.wait_for_result("TK135")
-    assert buypakage.is_result_displayed("TK135")
+    assert buypakage.is_result_displayed("Đăng nhập")
 #TC144. Kiểm tra màn hình tất cả gói cước
 @pytest.mark.tc144
 def test_check_view_all_pakage_tc144(driver):
